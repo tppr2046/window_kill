@@ -2864,7 +2864,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 980, y: 840}
+  m_SizeDelta: {x: 920, y: 780}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &770996229
 MonoBehaviour:
@@ -3219,8 +3219,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.0020751953, y: -28.164062}
+  m_SizeDelta: {x: -598.24, y: -426.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &830546386
 GameObject:
@@ -4538,7 +4538,7 @@ GameObject:
   - component: {fileID: 1469393348}
   - component: {fileID: 1469393349}
   m_Layer: 5
-  m_Name: Grid_layout
+  m_Name: Grid_Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4587,16 +4587,16 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 281.1328
-        y: 335.91406
-        width: 100
+        y: 287.91406
+        width: 129.87
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: GRID CREATED
+          isSystemEvent: 0
           isGlobal: 0
         toState: send grid number
         linkStyle: 0
@@ -4692,8 +4692,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 51.984375
-        y: 308.0078
-        width: 117.97
+        y: 260.0078
+        width: 126.48
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -4753,7 +4753,7 @@ MonoBehaviour:
           tooltip: "\u7E3D\u5171\u7684\u7A7A\u683Cx"
           showInInspector: 1
           networkSync: 0
-          value: 10
+          value: 21
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -4785,7 +4785,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 65.97656
-        y: 159.34375
+        y: 111.34375
         width: 100
         height: 32
       isBreakpoint: 0
@@ -4846,8 +4846,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 54.648438
-        y: 217.32812
-        width: 102.68
+        y: 169.32812
+        width: 110.6
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -4907,7 +4907,7 @@ MonoBehaviour:
           tooltip: "\u7E3D\u5171\u7684\u7A97\u683Cy"
           showInInspector: 1
           networkSync: 0
-          value: 5
+          value: 18
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -4939,8 +4939,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 780.7969
-        y: 167.64844
-        width: 108.43
+        y: 119.64844
+        width: 116.86
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -5008,7 +5008,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 286.1953
-        y: 265.125
+        y: 217.125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5103,8 +5103,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 271.21875
-        y: 409.0547
-        width: 133.53
+        y: 361.0547
+        width: 143.33
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -5123,23 +5123,81 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.ArrayAdd
         - HutongGames.PlayMaker.Actions.IntAdd
+        - HutongGames.PlayMaker.Actions.IntAdd
+        - HutongGames.PlayMaker.Actions.ArrayGet
+        - HutongGames.PlayMaker.Actions.SetEventProperties
+        - HutongGames.PlayMaker.Actions.SendEventByName
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000002000000
-        actionHashCodes: 978a9b03603dd905
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 000000000200000005000000080000000d00000013000000
+        actionHashCodes: 978a9b03603dd905603dd9056ba59301afffe300ba7ea101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams: []
+        fsmEventTargetParams:
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: grid_now
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: grid_index
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: grid_lock
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: GRID DATA
         fsmObjectParams: []
         fsmVarParams:
         - variableName: grid_now
@@ -5166,10 +5224,82 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
+        - variableName: isLock
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 2
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: checking.index.now
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: isLock
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 2
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
         fsmArrayParams:
         - useVariable: 1
           name: grid_array
-          tooltip: 
+          tooltip: "\u6240\u6709\u683C\u9EDEobject"
           showInInspector: 0
           networkSync: 0
           type: 3
@@ -5180,8 +5310,27 @@ MonoBehaviour:
           stringValues: []
           vector4Values: []
           objectReferences: []
+        - useVariable: 1
+          name: grid_fill_preset_array
+          tooltip: "\u95DC\u5361\u8CC7\u6599\uFF1A\u6BCF\u4E00\u683C\u7684lock\u72C0\u614B"
+          showInInspector: 1
+          networkSync: 0
+          type: 2
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 010101010101010101010101010101010101010101010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000000000000101010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010000000000000000000000000000000000000001010101010101010101010101010101010101010101
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams:
         - useVariable: 1
           name: grid.number.x
@@ -5195,35 +5344,74 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: checking.index.now
+          tooltip: "\u6AA2\u67E5\u683C\u5B50\u6642\u7684index"
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: checking.index.now
+          tooltip: "\u6AA2\u67E5\u683C\u5B50\u6642\u7684index"
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
+        stringParams:
+        - 
+        byteData: 00000000
+        arrayParamSizes: 0200000002000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2900000027000000100000001000000001000000
+        paramDataType: 290000002700000010000000100000000100000010000000100000000100000029000000100000002700000001000000170000000c00000012000000120000000c00000027000000270000001f000000120000000f00000001000000
         paramName:
         - array
         - value
         - intVariable
         - add
         - everyFrame
-        paramDataPos: 0000000000000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000000000001000000
+        - intVariable
+        - add
+        - everyFrame
+        - array
+        - index
+        - storeValue
+        - everyFrame
+        - indexOutOfRange
+        - keys
+        - 
+        - 
+        - datas
+        - 
+        - 
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 0000000000000000000000000100000000000000020000000300000001000000010000000400000001000000020000000000000000000000000000000100000001000000020000000300000000000000020000000000000003000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: reset variable
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 780.3906
-        y: 276.35938
-        width: 110.63
+        y: 228.35938
+        width: 118.62
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -5304,7 +5492,7 @@ MonoBehaviour:
         fsmArrayParams:
         - useVariable: 1
           name: grid_array
-          tooltip: 
+          tooltip: "\u6240\u6709\u683C\u9EDEobject"
           showInInspector: 0
           networkSync: 0
           type: 3
@@ -5374,8 +5562,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 737.52344
-        y: 401.58594
-        width: 139.78
+        y: 353.58594
+        width: 151.93
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -5449,7 +5637,7 @@ MonoBehaviour:
         fsmArrayParams:
         - useVariable: 1
           name: grid_array
-          tooltip: 
+          tooltip: "\u6240\u6709\u683C\u9EDEobject"
           showInInspector: 0
           networkSync: 0
           type: 3
@@ -5499,8 +5687,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1003.84375
-        y: 322.07812
-        width: 100
+        y: 274.07812
+        width: 103.67
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -5616,8 +5804,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 974.03906
-        y: 432.17188
-        width: 100
+        y: 384.17188
+        width: 103.84
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -5694,8 +5882,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 543.2344
-        y: 822.89844
-        width: 136.05
+        y: 774.89844
+        width: 145.54001
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -5713,7 +5901,8 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.ArrayGetRandom
-        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ArrayGet
+        - HutongGames.PlayMaker.Actions.CreateObject
         - HutongGames.PlayMaker.Actions.SetScale
         - HutongGames.PlayMaker.Actions.TweenFloat
         customNames:
@@ -5721,21 +5910,38 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01000101
-        actionStartIndex: 00000000050000000a00000011000000
-        actionHashCodes: 59788700b2cf1000afff110581bfb304
+        - 
+        actionEnabled: 0101010000
+        actionIsOpen: 0101010101
+        actionStartIndex: 00000000050000000a0000001000000017000000
+        actionHashCodes: 597887006ba5930160532301afff110581bfb304
         unityObjectParams: []
-        fsmGameObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 5395115885482087448, guid: bb40fe410d1a8a545b6def4b15ac16e0, type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 819048590}
+        - useVariable: 1
+          name: grid_now
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: mark_now
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: mark_now
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -5759,7 +5965,31 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: mark_now
+        - variableName: bird_grid_index_now
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: grid_now
           objectType: UnityEngine.GameObject
           useVariable: 1
           type: 3
@@ -5785,8 +6015,21 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams:
         - useVariable: 1
-          name: bird_array
+          name: bird_grid_index_array
           tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 1
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: grid_array
+          tooltip: "\u6240\u6709\u683C\u9EDEobject"
           showInInspector: 0
           networkSync: 0
           type: 3
@@ -5861,19 +6104,13 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        fsmBoolParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: bird_grid_index_now
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
+        fsmBoolParams:
         - useVariable: 0
           name: 
           tooltip: 
@@ -5894,28 +6131,47 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
+        - 
         - FINISHED
-        byteData: 0000000100000000000200000000000000000000000000000000
+        byteData: 00000100000000000200000000000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 29000000270000001000000011000000010000001400000011000000110000000100000001000000140000001c0000000f0000000f0000000f00000001000000010000000f000000070000000f000000070000000f0000000f0000002a000000160000000f000000110000000700000017000000020000000100000007000000
+        paramDataType: 290000002700000010000000110000000100000029000000100000002700000001000000170000001300000013000000130000001c0000001c00000013000000140000001c0000000f0000000f0000000f00000001000000010000000f000000070000000f000000070000000f0000000f0000002a000000160000000f000000110000000700000017000000020000000100000007000000
         paramName:
         - array
         - storeValue
         - index
         - noRepeat
         - everyFrame
-        - gameObject
-        - activate
-        - recursive
-        - resetOnExit
+        - array
+        - index
+        - storeValue
         - everyFrame
+        - indexOutOfRange
+        - gameObject
+        - parent
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
         - gameObject
         - vector
         - x
@@ -5938,16 +6194,16 @@ MonoBehaviour:
         - normalizedTime
         - everyFrame
         - updateType
-        paramDataPos: 0000000000000000000000000000000000000000000000000100000002000000010000000200000001000000000000000000000001000000020000000300000004000000030000000500000004000000090000000500000006000000000000000000000007000000030000000d00000000000000110000001500000016000000
-        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000010000000100000000000000000000000000000000000000000000000100000001000000000000000400000000000000040000000000000000000000000000000000000000000000000000000400000000000000040000000100000004000000
+        paramDataPos: 0000000000000000000000000000000000000000010000000100000001000000010000000000000000000000010000000200000000000000010000000300000000000000020000000000000001000000020000000200000003000000030000000400000004000000080000000500000006000000000000000000000007000000010000000c00000001000000100000001400000015000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000400000000000000040000000000000000000000000000000000000000000000000000000400000000000000040000000100000004000000
     - name: set next check index
       description: reset variables
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 1163.125
-        y: 786.0547
-        width: 151.26001
+        y: 738.0547
+        width: 163.86
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -6063,8 +6319,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1666.3359
-        y: 725.33594
-        width: 130.64
+        y: 677.33594
+        width: 138.01999
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -6081,60 +6337,16 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.ArrayGet
-        - HutongGames.PlayMaker.Actions.GetPosition
-        - HutongGames.PlayMaker.Actions.FloatOperator
-        - HutongGames.PlayMaker.Actions.FloatOperator
-        - HutongGames.PlayMaker.Actions.SetVector3XYZ
-        - HutongGames.PlayMaker.Actions.CreateObject
         - HutongGames.PlayMaker.Actions.ArrayAdd
         customNames:
         - 
-        - 
-        - 
-        - 
-        - 
-        - 
-        - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
-        actionStartIndex: 00000000050000000c00000011000000160000001c00000022000000
-        actionHashCodes: 6ba593015552ad050cdb04050cdb0405dfd72a0460532301978a9b03
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 978a9b03
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 5395115885482087448, guid: bb40fe410d1a8a545b6def4b15ac16e0, type: 3}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 819048590}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        - useVariable: 1
-          name: mark_now
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: check_grid_now
-            tooltip: "\u6AA2\u67E5\u6A21\u5F0F\u6642\u53D6\u5F97\u7684\u683C\u5B50"
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -6144,34 +6356,10 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: check_grid_now
-          objectType: UnityEngine.GameObject
+        - variableName: check.index.now
+          objectType: UnityEngine.Object
           useVariable: 1
-          type: 3
-          floatValue: 0
-          intValue: 0
-          boolValue: 0
-          stringValue: 
-          vector4Value: {x: 0, y: 0, z: 0, w: 0}
-          objectReference: {fileID: 0}
-          arrayValue:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: 
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-        - variableName: mark_now
-          objectType: UnityEngine.GameObject
-          useVariable: 1
-          type: 3
+          type: 1
           floatValue: 0
           intValue: 0
           boolValue: 0
@@ -6194,24 +6382,11 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams:
         - useVariable: 1
-          name: grid_array
+          name: bird_grid_index_array
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          type: 3
-          objectTypeName: UnityEngine.Object
-          floatValues: []
-          intValues: 
-          boolValues: 
-          stringValues: []
-          vector4Values: []
-          objectReferences: []
-        - useVariable: 1
-          name: bird_array
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          type: 3
+          type: 1
           objectTypeName: UnityEngine.Object
           floatValues: []
           intValues: 
@@ -6220,177 +6395,34 @@ MonoBehaviour:
           vector4Values: []
           objectReferences: []
         fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: pos.x
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: pos.y
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: pos.x
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 150
-        - useVariable: 1
-          name: mark.pos.x
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: pos.y
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: -50
-        - useVariable: 1
-          name: mark.pos.y
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: mark.pos.x
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: mark.pos.y
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams:
-        - useVariable: 1
-          name: check.index.now
-          tooltip: "\u76EE\u524D\u6AA2\u67E5array\u7684index"
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmFloatParams: []
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
-        fsmVector3Params:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: gid_pos_now
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: gid_pos_now
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {x: 0, y: 0, z: 0}
+        fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
-        byteData: 0000000000000000000000000000000000
+        stringParams: []
+        byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2900000010000000270000000100000017000000140000001c0000000f0000000f0000000f00000007000000010000000f0000000f000000070000000f000000010000000f0000000f000000070000000f000000010000001c0000001c0000000f0000000f0000000f000000010000001300000013000000130000001c0000001c000000130000002900000027000000
+        paramDataType: 2900000027000000
         paramName:
         - array
-        - index
-        - storeValue
-        - everyFrame
-        - indexOutOfRange
-        - gameObject
-        - vector
-        - x
-        - y
-        - z
-        - space
-        - everyFrame
-        - float1
-        - float2
-        - operation
-        - storeResult
-        - everyFrame
-        - float1
-        - float2
-        - operation
-        - storeResult
-        - everyFrame
-        - vector3Variable
-        - vector3Value
-        - x
-        - y
-        - z
-        - everyFrame
-        - gameObject
-        - parent
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        - array
         - value
-        paramDataPos: 000000000000000000000000000000000000000000000000000000000000000001000000020000000100000005000000030000000400000006000000050000000a00000006000000070000000b000000080000000f0000000100000002000000090000000a0000000b000000100000000000000001000000020000000300000004000000030000000100000001000000
-        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000400000001000000000000000000000004000000000000000100000000000000000000000400000000000000010000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+        paramDataPos: 0000000000000000
+        paramByteDataSize: 0000000000000000
     - name: remember start point
       description: "\u8A18\u4E0B\u958B\u59CB\u6AA2\u67E5\u7684\u9EDE"
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 1187.8438
-        y: 319.60156
-        width: 154.69
+        y: 271.60156
+        width: 166.91
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -6532,8 +6564,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1724.5547
-        y: 480.9297
-        width: 114.13
+        y: 432.9297
+        width: 123.26
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -6614,7 +6646,7 @@ MonoBehaviour:
         fsmArrayParams:
         - useVariable: 1
           name: grid_array
-          tooltip: 
+          tooltip: "\u6240\u6709\u683C\u9EDEobject"
           showInInspector: 0
           networkSync: 0
           type: 3
@@ -6636,13 +6668,13 @@ MonoBehaviour:
         fsmIntParams:
         - useVariable: 1
           name: checking.index.now
-          tooltip: "\u9032\u5165\u6AA2\u67E5\u6A21\u5F0F\u6642\u7684index"
+          tooltip: "\u6AA2\u67E5\u683C\u5B50\u6642\u7684index"
           showInInspector: 0
           networkSync: 0
           value: 0
         - useVariable: 1
           name: checking.index.now
-          tooltip: "\u9032\u5165\u6AA2\u67E5\u6A21\u5F0F\u6642\u7684index"
+          tooltip: "\u6AA2\u67E5\u683C\u5B50\u6642\u7684index"
           showInInspector: 0
           networkSync: 0
           value: 0
@@ -6678,8 +6710,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1717.125
-        y: 563.1406
-        width: 158.21
+        y: 515.1406
+        width: 172.15
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -6795,8 +6827,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1715.8828
-        y: 402.91406
-        width: 120.43
+        y: 354.91406
+        width: 128.22
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -6876,7 +6908,7 @@ MonoBehaviour:
           tooltip: "\u7E3D\u5171\u7684\u7A7A\u683Cx"
           showInInspector: 1
           networkSync: 0
-          value: 10
+          value: 21
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -6912,8 +6944,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1214.3281
-        y: 419.875
-        width: 120.43
+        y: 371.875
+        width: 128.22
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -6981,7 +7013,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - continue check
         - continue check
         - FINISHED
         byteData: 00
@@ -7005,7 +7037,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1213.2812
-        y: 509.21094
+        y: 461.21094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7083,8 +7115,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1436.5781
-        y: 432.85156
-        width: 120.43
+        y: 384.85156
+        width: 128.22
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -7152,7 +7184,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - FINISHED
+        - continue check
         - continue check
         - FINISHED
         byteData: 00
@@ -7176,7 +7208,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1455.9219
-        y: 513.35156
+        y: 465.35156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7254,8 +7286,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 868.58594
-        y: 603.9297
-        width: 100
+        y: 555.9297
+        width: 102.11
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -7349,8 +7381,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1365.6953
-        y: 680.0547
-        width: 138.63
+        y: 632.0547
+        width: 150.62
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -7430,7 +7462,7 @@ MonoBehaviour:
           tooltip: "\u7E3D\u5171\u7684\u7A7A\u683Cx"
           showInInspector: 1
           networkSync: 0
-          value: 10
+          value: 21
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -7466,8 +7498,8 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1020.66406
-        y: 694.71094
-        width: 142.76999
+        y: 646.71094
+        width: 154.22
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -7583,7 +7615,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1443.6484
-        y: 379.9922
+        y: 331.9922
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7661,7 +7693,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 567.66406
-        y: 916.66406
+        y: 868.66406
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7893,7 +7925,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 555.65625
-        y: 998.0078
+        y: 950.0078
         width: 100
         height: 32
       isBreakpoint: 0
@@ -7948,7 +7980,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 20
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -7992,9 +8024,9 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 578.66406
-        y: 744.66406
-        width: 118.68
+        x: 581.33594
+        y: 694.66406
+        width: 126.31
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -8043,11 +8075,11 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams:
         - useVariable: 1
-          name: bird_array
+          name: bird_grid_index_array
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          type: 3
+          type: 1
           objectTypeName: UnityEngine.Object
           floatValues: []
           intValues: 
@@ -8110,7 +8142,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 344
-        y: 832
+        y: 784
         width: 100
         height: 32
       isBreakpoint: 0
@@ -8165,7 +8197,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 20
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -8210,7 +8242,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 330.66406
-        y: 1007
+        y: 959
         width: 100
         height: 16
       isBreakpoint: 0
@@ -8258,470 +8290,6 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
-    - name: line y = 0
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 475.32812
-        y: 111.66406
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: check line y
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.SetIntValue
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 603dd905
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: checking.y.index
-          tooltip: "\u6AA2\u67E5\u6642\u5728\u958B\u59CB\u9EDE\u4E0A\u5E7E\u884Cx"
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 100000001000000001000000
-        paramName:
-        - intVariable
-        - intValue
-        - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
-    - name: check line y
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 465
-        y: 173.33594
-        width: 100
-        height: 48
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: set black
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: all grid got
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: "\u72C0\u614B 1"
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.MathExpression
-        - HutongGames.PlayMaker.Actions.ArrayGet
-        customNames:
-        - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 9f6463026ba59301
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: grid.limit.x * checking.y.index
-        fsmObjectParams: []
-        fsmVarParams:
-        - variableName: check_grid_now
-          objectType: UnityEngine.GameObject
-          useVariable: 1
-          type: 3
-          floatValue: 0
-          intValue: 0
-          boolValue: 0
-          stringValue: 
-          vector4Value: {x: 0, y: 0, z: 0, w: 0}
-          objectReference: {fileID: 0}
-          arrayValue:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: 
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-        fsmArrayParams:
-        - useVariable: 1
-          name: grid_array
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          type: 3
-          objectTypeName: UnityEngine.Object
-          floatValues: []
-          intValues: 
-          boolValues: 
-          stringValues: []
-          vector4Values: []
-          objectReferences: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams:
-        - useVariable: 1
-          name: check.index.now
-          tooltip: "\u76EE\u524D\u6AA2\u67E5array\u7684index"
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: check.index.now
-          tooltip: "\u76EE\u524D\u6AA2\u67E5array\u7684index"
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - all grid got
-        byteData: 0000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 120000000f00000010000000010000002900000010000000270000000100000017000000
-        paramName:
-        - expression
-        - storeResultAsFloat
-        - storeResultAsInt
-        - everyFrame
-        - array
-        - index
-        - storeValue
-        - everyFrame
-        - indexOutOfRange
-        paramDataPos: 000000000000000000000000000000000000000001000000000000000100000000000000
-        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000100000000000000
-    - name: set black
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 462.9922
-        y: 247.00781
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: add y index
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.SendEventByName
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: ba7ea101
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams:
-        - target: 1
-          excludeSelf:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          gameObject:
-            ownerOption: 1
-            gameObject:
-              useVariable: 1
-              name: check_grid_now
-              tooltip: "\u6AA2\u67E5\u6A21\u5F0F\u6642\u53D6\u5F97\u7684\u683C\u5B50"
-              showInInspector: 0
-              networkSync: 0
-              value: {fileID: 0}
-          fsmName:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          sendToChildren:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          fsmComponent: {fileID: 0}
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: BLACK
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 1f000000120000000f00000001000000
-        paramName:
-        - eventTarget
-        - sendEvent
-        - delay
-        - everyFrame
-        paramDataPos: 00000000000000000000000000000000
-        paramByteDataSize: 00000000000000000000000001000000
-    - name: "\u72C0\u614B 1"
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 650.33594
-        y: 121
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    - name: add y index
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 622.3281
-        y: 238.33594
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: check line y
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.IntAdd
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 603dd905
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: checking.y.index
-          tooltip: "\u6AA2\u67E5\u6642\u5728\u958B\u59CB\u9EDE\u4E0A\u5E7E\u884Cx"
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 100000001000000001000000
-        paramName:
-        - intVariable
-        - add
-        - everyFrame
-        paramDataPos: 000000000100000000000000
-        paramByteDataSize: 000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -8753,7 +8321,13 @@ MonoBehaviour:
     - name: got a empty space
       isSystemEvent: 0
       isGlobal: 0
+    - name: GRID CREATED
+      isSystemEvent: 0
+      isGlobal: 0
     - name: is filled
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: LINE
       isSystemEvent: 0
       isGlobal: 0
     - name: meet limit x
@@ -8765,25 +8339,22 @@ MonoBehaviour:
     - name: set is fill
       isSystemEvent: 0
       isGlobal: 0
+    - name: set unfill
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: UNFILL
+      isSystemEvent: 0
+      isGlobal: 0
     - name: verify
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: win
       isSystemEvent: 0
       isGlobal: 0
     - name: x is empty
       isSystemEvent: 0
       isGlobal: 0
     - name: y is empty
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: UNFILL
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: set unfill
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: win
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: LINE
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions:
@@ -8796,41 +8367,8 @@ MonoBehaviour:
       linkConstraint: 0
       linkTarget: 0
       colorIndex: 0
-    - fsmEvent:
-        name: LINE
-        isSystemEvent: 0
-        isGlobal: 0
-      toState: line y = 0
-      linkStyle: 0
-      linkConstraint: 0
-      linkTarget: 0
-      colorIndex: 0
     variables:
       floatVariables:
-      - useVariable: 1
-        name: pos.x
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: pos.y
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: mark.pos.x
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: mark.pos.y
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
       - useVariable: 1
         name: scale.now
         tooltip: 
@@ -8840,13 +8378,13 @@ MonoBehaviour:
       intVariables:
       - useVariable: 1
         name: check.index.now
-        tooltip: "\u76EE\u524D\u6AA2\u67E5array\u7684index"
+        tooltip: "\u9032\u6AA2\u67E5\u6A21\u5F0F\u7684index"
         showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
         name: checking.index.now
-        tooltip: "\u9032\u5165\u6AA2\u67E5\u6A21\u5F0F\u6642\u7684index"
+        tooltip: "\u6AA2\u67E5\u683C\u5B50\u6642\u7684index"
         showInInspector: 0
         networkSync: 0
         value: 0
@@ -8958,9 +8496,21 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: bird_grid_index_now
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       boolVariables:
       - useVariable: 1
         name: isFill
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: isLock
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -9013,11 +8563,11 @@ MonoBehaviour:
       textureVariables: []
       arrayVariables:
       - useVariable: 1
-        name: grid_array
+        name: bird_grid_index_array
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        type: 3
+        type: 1
         objectTypeName: UnityEngine.Object
         floatValues: []
         intValues: 
@@ -9039,8 +8589,8 @@ MonoBehaviour:
         vector4Values: []
         objectReferences: []
       - useVariable: 1
-        name: bird_array
-        tooltip: 
+        name: grid_array
+        tooltip: "\u6240\u6709\u683C\u9EDEobject"
         showInInspector: 0
         networkSync: 0
         type: 3
@@ -9051,10 +8601,37 @@ MonoBehaviour:
         stringValues: []
         vector4Values: []
         objectReferences: []
+      - useVariable: 1
+        name: grid_fill_array
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 2
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
+      - useVariable: 1
+        name: grid_fill_preset_array
+        tooltip: "\u95DC\u5361\u8CC7\u6599\uFF1A\u6BCF\u4E00\u683C\u7684lock\u72C0\u614B"
+        showInInspector: 1
+        networkSync: 0
+        type: 2
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 010101010101010101010101010101010101010101010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010100000000000000000000000000000000000000010101010101010101010101010101010101010101
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      - Preset
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     description: 
     docUrl: 
     showStateLabel: 0
