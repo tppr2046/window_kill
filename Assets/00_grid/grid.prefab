@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: -10, y: -10, z: -10, w: -10}
+  m_RaycastPadding: {x: -15, y: -15, z: -15, w: -15}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -796,8 +796,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 497.97656
-        y: 490.98438
+        x: 378.64062
+        y: 489.65625
         width: 100
         height: 16
       isBreakpoint: 0
@@ -952,7 +952,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: grid_fill
+          value: canPlant
         - useVariable: 0
           name: 
           tooltip: 
@@ -985,7 +985,7 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        - variableName: isFill
+        - variableName: canPlant
           objectType: UnityEngine.Object
           useVariable: 1
           type: 2
@@ -1285,10 +1285,10 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 589.65625
-        y: 293.33594
-        width: 100
-        height: 32
+        x: 595.65625
+        y: 262
+        width: 104.94
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -1298,6 +1298,15 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: check item type
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: check plant
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: check can plant
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -1340,7 +1349,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - 
+        - check plant
         - can tap
         byteData: 00
         arrayParamSizes: 
@@ -1565,8 +1574,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 676.65625
-        y: 560.9922
+        x: 590.65625
+        y: 546.3281
         width: 130.2
         height: 16
       isBreakpoint: 0
@@ -1841,8 +1850,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 691.65625
-        y: 476.9922
+        x: 592.9922
+        y: 464.9922
         width: 148.25
         height: 48
       isBreakpoint: 0
@@ -1925,8 +1934,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 824.66406
-        y: 561
+        x: 609.3281
+        y: 590.33594
         width: 157.12
         height: 16
       isBreakpoint: 0
@@ -2105,8 +2114,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1106.3359
-        y: 455
+        x: 845.66406
+        y: 468.33594
         width: 164.13
         height: 48
       isBreakpoint: 0
@@ -2189,8 +2198,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1343.6562
-        y: 535.66406
+        x: 859.65625
+        y: 593.66406
         width: 173
         height: 16
       isBreakpoint: 0
@@ -2369,8 +2378,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1080.3281
-        y: 540.3281
+        x: 863.66406
+        y: 538.9922
         width: 146.07
         height: 16
       isBreakpoint: 0
@@ -2565,6 +2574,546 @@ MonoBehaviour:
         - storeObject
         paramDataPos: 0000000000000000010000000000000000000000010000000000000000000000000000000100000001000000000000000100000002000000000000000100000003000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000000000000000000001000000000000000000000000000000000000000000000000000000
+    - name: check can plant
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 910
+        y: 322.6328
+        width: 132.16
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: can plant
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: check has plant
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.BoolTest
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a4c8bf00
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: canPlant
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - can plant
+        - 
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 11000000170000001700000001000000
+        paramName:
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000
+        paramByteDataSize: 00000000000000000000000001000000
+    - name: check has plant
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1113.3047
+        y: 477.3125
+        width: 131.81
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: has plant
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: remove plant
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: no plant
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: set plant
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.BoolTest
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a4c8bf00
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: hasPlant
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - has plant
+        - no plant
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 11000000170000001700000001000000
+        paramName:
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000
+        paramByteDataSize: 00000000000000000000000001000000
+    - name: set plant
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1118.9922
+        y: 572.6719
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetEventProperties
+        - HutongGames.PlayMaker.Actions.SendEventByName
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.CreateObject
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000004000000080000000b000000
+        actionHashCodes: afffe300ba7ea10127fbe10360532301
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 6166379060659249028, guid: 85bfe7cee9d62b44f9ca4acb8a11bb88, type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4433262969046451143}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4433262969046451143}
+        - useVariable: 1
+          name: plant_image
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: layout
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: grid_index
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: ADD PLANT
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: grid_index
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: hasPlant
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 0100000001000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0c000000120000000c000000270000001f000000120000000f000000010000001100000011000000010000001300000013000000130000001c0000001c00000013000000
+        paramName:
+        - keys
+        - 
+        - datas
+        - 
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - gameObject
+        - parent
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        paramDataPos: 0000000000000000010000000000000000000000010000000000000000000000000000000100000001000000000000000100000002000000000000000100000003000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000000000000000000001000000000000000000000000000000000000000000000000000000
+    - name: remove plant
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1121.9766
+        y: 622.6797
+        width: 113.81
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetEventProperties
+        - HutongGames.PlayMaker.Actions.SendEventByName
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.DestroyObject
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000004000000080000000b000000
+        actionHashCodes: afffe300ba7ea10127fbe1039ff80c02
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: plant_image
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: layout
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: grid_index
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: REMOVE PLANT
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: grid_index
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: hasPlant
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 0100000001000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0c000000120000000c000000270000001f000000120000000f00000001000000110000001100000001000000130000000f00000011000000
+        paramName:
+        - keys
+        - 
+        - datas
+        - 
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - gameObject
+        - delay
+        - detachChildren
+        paramDataPos: 0000000000000000010000000000000000000000010000000000000000000000000000000100000001000000000000000100000002000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000000000000000000001000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2612,6 +3161,18 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: no harizontal line
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: check plant
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: can plant
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: has plant
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: no plant
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions:
@@ -2691,6 +3252,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: canPlant
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
       stringVariables: []
       vector2Variables: []
       vector3Variables: []
@@ -2716,6 +3283,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
+      - useVariable: 1
+        name: plant_image
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -2723,7 +3296,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
