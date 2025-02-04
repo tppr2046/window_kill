@@ -101,7 +101,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 263.3203
+        x: 215.32031
         y: 109.27344
         width: 100
         height: 32
@@ -230,8 +230,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 239.98438
-        y: 345.33594
+        x: 53.3125
+        y: 329.33594
         width: 100
         height: 16
       isBreakpoint: 0
@@ -242,30 +242,56 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SetBoolValue
-        - HutongGames.PlayMaker.Actions.SetFsmArrayItem
+        - HutongGames.PlayMaker.Actions.SetEventProperties
+        - HutongGames.PlayMaker.Actions.SendEventByName
         customNames:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000200000005000000
-        actionHashCodes: 5ac8520427fbe10335338f05
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000020000000500000009000000
+        actionHashCodes: 5ac8520427fbe103afffe300ba7ea101
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: layout
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams: []
+        fsmEventTargetParams:
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: layout
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams:
         - TargetObject:
             useVariable: 0
@@ -406,19 +432,19 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: FSM
+          value: grid_index
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: grid_fill_array
+          value: ADD GRID FILL
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: isFill
+        - variableName: grid_index
           objectType: UnityEngine.Object
           useVariable: 1
-          type: 2
+          type: 1
           floatValue: 0
           intValue: 0
           boolValue: 0
@@ -441,14 +467,14 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: grid_index
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: 0
+        fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
           name: isFill
@@ -467,40 +493,38 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - 
-        - 
-        - 
+        stringParams: []
         byteData: 000000
-        arrayParamSizes: 
-        arrayParamTypes: []
+        arrayParamSizes: 0100000001000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2400000001000000110000001100000001000000140000001200000012000000100000002700000001000000170000001700000017000000
+        paramDataType: 24000000010000001100000011000000010000000c000000120000000c000000270000001f000000120000000f00000001000000
         paramName:
         - targetProperty
         - everyFrame
         - boolVariable
         - boolValue
         - everyFrame
-        - gameObject
-        - fsmName
-        - variableName
-        - index
-        - value
+        - keys
+        - 
+        - datas
+        - 
+        - eventTarget
+        - sendEvent
+        - delay
         - everyFrame
-        - indexOutOfRange
-        - fsmNotFound
-        - variableNotFound
-        paramDataPos: 0000000000000000000000000100000001000000000000000000000001000000000000000000000002000000000000000100000002000000
-        paramByteDataSize: 0000000001000000000000000000000001000000000000000000000000000000000000000000000001000000000000000000000000000000
+        paramDataPos: 00000000000000000000000001000000010000000000000000000000010000000000000000000000010000000000000002000000
+        paramByteDataSize: 00000000010000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     - name: white
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 411.95312
-        y: 353.98438
+        x: 263.28125
+        y: 349.3203
         width: 100
         height: 16
       isBreakpoint: 0
@@ -796,7 +820,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 378.64062
+        x: 330.64062
         y: 489.65625
         width: 100
         height: 16
@@ -912,7 +936,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 262.3203
+        x: 214.32031
         y: 166.32812
         width: 113.76
         height: 16
@@ -1080,8 +1104,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 55.992188
-        y: 349.66406
+        x: 401.64844
+        y: 107
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1285,8 +1309,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 595.65625
-        y: 262
+        x: 541.64844
+        y: 274
         width: 104.94
         height: 48
       isBreakpoint: 0
@@ -1369,7 +1393,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 409
+        x: 257
         y: 283.32812
         width: 138.41
         height: 32
@@ -1444,7 +1468,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 578.3203
+        x: 530.3203
         y: 345
         width: 133.28
         height: 64
@@ -1574,7 +1598,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 590.65625
+        x: 542.65625
         y: 546.3281
         width: 130.2
         height: 16
@@ -1775,8 +1799,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 247.64844
-        y: 289
+        x: 60.976562
+        y: 273
         width: 137.72
         height: 32
       isBreakpoint: 0
@@ -1850,7 +1874,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 592.9922
+        x: 544.9922
         y: 464.9922
         width: 148.25
         height: 48
@@ -1934,7 +1958,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 609.3281
+        x: 561.3281
         y: 590.33594
         width: 157.12
         height: 16
@@ -2114,7 +2138,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 845.66406
+        x: 797.66406
         y: 468.33594
         width: 164.13
         height: 48
@@ -2198,7 +2222,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 859.65625
+        x: 811.65625
         y: 593.66406
         width: 173
         height: 16
@@ -2378,7 +2402,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 863.66406
+        x: 815.66406
         y: 538.9922
         width: 146.07
         height: 16
@@ -2579,8 +2603,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 910
-        y: 322.6328
+        x: 861.3281
+        y: 306.6328
         width: 132.16
         height: 32
       isBreakpoint: 0
@@ -2654,7 +2678,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1113.3047
+        x: 1065.3047
         y: 477.3125
         width: 131.81
         height: 48
@@ -2738,7 +2762,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1118.9922
+        x: 1070.9922
         y: 572.6719
         width: 100
         height: 16
@@ -2939,7 +2963,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1121.9766
+        x: 1073.9766
         y: 622.6797
         width: 113.81
         height: 16
