@@ -7656,7 +7656,6 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetIntValue
-        - HutongGames.PlayMaker.Actions.ArrayLength
         - HutongGames.PlayMaker.Actions.MathExpression
         - HutongGames.PlayMaker.Actions.MathExpression
         - HutongGames.PlayMaker.Actions.MathExpression
@@ -7669,11 +7668,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
-        actionStartIndex: 0000000003000000060000000a0000000e0000001200000015000000
-        actionHashCodes: 603dd905fb2588019f6463029f6463029f646302603dd905603dd905
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 0000000003000000070000000b0000000f00000012000000
+        actionHashCodes: 603dd9059f6463029f6463029f646302603dd905603dd905
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -7689,10 +7687,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 'bird.max.index.now  - empty.check.x.1 -2
-
-
-'
+          value: grid.limit.x * grid.limit.y -1
         - useVariable: 0
           name: 
           tooltip: 
@@ -7707,20 +7702,7 @@ MonoBehaviour:
           value: check.index.now / grid.limit.x
         fsmObjectParams: []
         fsmVarParams: []
-        fsmArrayParams:
-        - useVariable: 1
-          name: bird_grid_index_array_1
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          type: 1
-          objectTypeName: UnityEngine.Object
-          floatValues: []
-          intValues: 
-          boolValues: 
-          stringValues: []
-          vector4Values: []
-          objectReferences: []
+        fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
@@ -7750,12 +7732,6 @@ MonoBehaviour:
           value: 0
         - useVariable: 0
           name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: bird.max.index.now
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7809,19 +7785,16 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00000000000000
+        byteData: 000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000001000000290000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000100000001000000001000000100000001000000001000000
+        paramDataType: 100000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000100000001000000001000000100000001000000001000000
         paramName:
         - intVariable
         - intValue
         - everyFrame
-        - array
-        - length
-        - everyFrame
         - expression
         - storeResultAsFloat
         - storeResultAsInt
@@ -7840,8 +7813,8 @@ MonoBehaviour:
         - intVariable
         - intValue
         - everyFrame
-        paramDataPos: 000000000100000000000000000000000200000001000000000000000000000003000000020000000100000001000000040000000300000002000000020000000500000004000000060000000700000005000000080000000900000006000000
-        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000001000000
+        paramDataPos: 000000000100000000000000000000000000000002000000010000000100000001000000030000000200000002000000020000000400000003000000050000000600000004000000070000000800000005000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000001000000
     - name: add row
       description: 
       colorIndex: 0
@@ -16124,11 +16097,11 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: empty.check.x.1
-          tooltip: "\u7A7A\u683C\u6210\u7ACB\u7684x"
+          name: grid.limit.x
+          tooltip: "\u7E3D\u5171\u7684\u7A7A\u683Cx"
           showInInspector: 1
           networkSync: 0
-          value: 8
+          value: 21
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -16335,7 +16308,6 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetIntValue
-        - HutongGames.PlayMaker.Actions.ArrayLength
         - HutongGames.PlayMaker.Actions.MathExpression
         - HutongGames.PlayMaker.Actions.MathExpression
         - HutongGames.PlayMaker.Actions.MathExpression
@@ -16348,11 +16320,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
-        actionStartIndex: 0000000003000000060000000a0000000e0000001200000015000000
-        actionHashCodes: 603dd905fb2588019f6463029f6463029f646302603dd905603dd905
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 0000000003000000070000000b0000000f00000012000000
+        actionHashCodes: 603dd9059f6463029f6463029f646302603dd905603dd905
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -16368,8 +16339,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 'bird.max.index.now  - empty.check.x.1 -2
-
+          value: 'grid.limit.x * grid.limit.y -1
 
 '
         - useVariable: 0
@@ -16386,20 +16356,7 @@ MonoBehaviour:
           value: check.index.now / grid.limit.x
         fsmObjectParams: []
         fsmVarParams: []
-        fsmArrayParams:
-        - useVariable: 1
-          name: bird_grid_index_array_2
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          type: 1
-          objectTypeName: UnityEngine.Object
-          floatValues: []
-          intValues: 
-          boolValues: 
-          stringValues: []
-          vector4Values: []
-          objectReferences: []
+        fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
@@ -16429,12 +16386,6 @@ MonoBehaviour:
           value: 0
         - useVariable: 0
           name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: bird.max.index.now
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -16488,19 +16439,16 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00000000000000
+        byteData: 000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001000000001000000290000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000100000001000000001000000100000001000000001000000
+        paramDataType: 100000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000100000001000000001000000100000001000000001000000
         paramName:
         - intVariable
         - intValue
         - everyFrame
-        - array
-        - length
-        - everyFrame
         - expression
         - storeResultAsFloat
         - storeResultAsInt
@@ -16519,8 +16467,8 @@ MonoBehaviour:
         - intVariable
         - intValue
         - everyFrame
-        paramDataPos: 000000000100000000000000000000000200000001000000000000000000000003000000020000000100000001000000040000000300000002000000020000000500000004000000060000000700000005000000080000000900000006000000
-        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000001000000
+        paramDataPos: 000000000100000000000000000000000000000002000000010000000100000001000000030000000200000002000000020000000400000003000000050000000600000004000000070000000800000005000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000000000000000000001000000
     - name: remove bird 4
       description: 
       colorIndex: 3
@@ -17006,11 +16954,11 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: empty.check.x.2
-          tooltip: 
+          name: grid.limit.x
+          tooltip: "\u7E3D\u5171\u7684\u7A7A\u683Cx"
           showInInspector: 1
           networkSync: 0
-          value: 4
+          value: 21
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
