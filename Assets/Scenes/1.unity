@@ -12655,8 +12655,8 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: add.line.start.index
-          tooltip: "\u5713\u9EDE\u6642\u5C31\u662F\u9019\u500B\u9EDEindex\u7DDA\u689D\u6642\u7DDA\u689D\u4E2D\u9593\u7684\u9EDEindex"
+          name: add.line.grid.index
+          tooltip: "\u7DDA\u689D\u586B\u5165\u683C\u5B50"
           showInInspector: 0
           networkSync: 0
           value: 0
