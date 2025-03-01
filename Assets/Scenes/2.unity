@@ -417,7 +417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].boolValues.Array.data[23]'
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].boolValues.Array.data[24]'
@@ -1198,6 +1198,22 @@ PrefabInstance:
     - target: {fileID: 6895642524283013706, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -23.4472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830618990990123196, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1033.1353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830618990990123196, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 649.4055
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830618990990123196, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.7756
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830618990990123196, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28.267311
       objectReference: {fileID: 0}
     - target: {fileID: 8037025040152019964, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_ConstraintCount
