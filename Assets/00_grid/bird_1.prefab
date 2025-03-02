@@ -249,7 +249,7 @@ MonoBehaviour:
           value: bird_fly_time
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: 
+        - variableName: bird_fly_time
           objectType: UnityEngine.Object
           useVariable: 1
           type: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.2
+          value: 0.5
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -742,8 +742,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 276.22656
-        y: 243.125
+        x: 270.89062
+        y: 244.45312
         width: 100
         height: 32
       isBreakpoint: 0
