@@ -2153,7 +2153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1084884935900774386, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[2].value
