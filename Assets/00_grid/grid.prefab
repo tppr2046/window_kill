@@ -101,7 +101,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 423.3203
+        x: 583.3203
         y: 109.27344
         width: 100
         height: 32
@@ -230,7 +230,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 85.09375
+        x: 245.09375
         y: 323.58594
         width: 104.31
         height: 32
@@ -472,7 +472,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 272.39062
+        x: 432.39062
         y: 325.5703
         width: 103.62
         height: 32
@@ -632,7 +632,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {r: 1, g: 1, b: 1, a: 0.39215687}
+            value: {r: 1, g: 1, b: 1, a: 0}
           EnumParameter:
             useVariable: 0
             name: 
@@ -714,7 +714,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 538.6406
+        x: 698.6406
         y: 489.65625
         width: 100
         height: 16
@@ -766,7 +766,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 420.98438
+        x: 580.9844
         y: 172.32812
         width: 113.76
         height: 16
@@ -966,7 +966,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 609.64844
+        x: 769.64844
         y: 107
         width: 100
         height: 16
@@ -1171,7 +1171,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 751.6406
+        x: 911.6406
         y: 248
         width: 104.94
         height: 48
@@ -1255,7 +1255,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 738.3203
+        x: 898.3203
         y: 345
         width: 133.28
         height: 64
@@ -1385,7 +1385,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 713.9922
+        x: 873.9922
         y: 694.3281
         width: 130.2
         height: 16
@@ -1586,7 +1586,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 740.9922
+        x: 900.9922
         y: 550.9922
         width: 148.25
         height: 48
@@ -1670,7 +1670,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 771.9922
+        x: 931.9922
         y: 753.0156
         width: 157.12
         height: 16
@@ -1850,7 +1850,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1118.9922
+        x: 1278.9922
         y: 493.66406
         width: 164.13
         height: 48
@@ -1934,7 +1934,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1189.6406
+        x: 1349.6406
         y: 702.9922
         width: 173
         height: 16
@@ -2114,7 +2114,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1193.6562
+        x: 1353.6562
         y: 642.3125
         width: 146.07
         height: 16
@@ -2315,7 +2315,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1036.6641
+        x: 1196.6641
         y: 343.29688
         width: 140.26001
         height: 48
@@ -2399,7 +2399,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1500.6328
+        x: 1660.6328
         y: 442.64844
         width: 131.81
         height: 48
@@ -2483,7 +2483,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1534.9844
+        x: 1694.9844
         y: 585.34375
         width: 100
         height: 16
@@ -2684,7 +2684,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1537.9688
+        x: 1697.9688
         y: 635.35156
         width: 113.81
         height: 16
@@ -2864,7 +2864,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 77.11719
+        x: 237.11719
         y: 407.25
         width: 104.31
         height: 32
@@ -3013,7 +3013,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 270.29688
+        x: 430.29688
         y: 409.3828
         width: 103.62
         height: 32
@@ -3162,7 +3162,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 277.1172
+        x: 437.1172
         y: 266.2578
         width: 111.33
         height: 32
@@ -3237,7 +3237,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 91.11719
+        x: 251.11719
         y: 267.59375
         width: 109.65
         height: 32
@@ -3312,7 +3312,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 473.46875
+        x: 633.46875
         y: 356.8828
         width: 136.28
         height: 32
@@ -3420,7 +3420,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 509.64844
+        x: 669.64844
         y: 628.65625
         width: 168.33
         height: 32
@@ -3537,7 +3537,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 988.9922
+        x: 1148.9922
         y: 584.33594
         width: 184.21
         height: 32
@@ -3654,7 +3654,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1405.4844
+        x: 1565.4844
         y: 529.27344
         width: 125.02
         height: 32
@@ -3771,7 +3771,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1621
+        x: 1781
         y: 355.32812
         width: 144.48001
         height: 32
@@ -3846,7 +3846,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1875.6328
+        x: 2035.6328
         y: 438.78125
         width: 144.12
         height: 48
@@ -3930,7 +3930,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1909.9844
+        x: 2069.9844
         y: 581.47656
         width: 100
         height: 16
@@ -4131,7 +4131,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1912.9688
+        x: 2072.9688
         y: 631.4844
         width: 126.12
         height: 16
@@ -4311,7 +4311,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1780.4844
+        x: 1940.4844
         y: 525.40625
         width: 137.33
         height: 32
@@ -4423,69 +4423,55 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000010000000000000000000000010000000200000000000000010000000200000001000000
         paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: place bird splash
+    - name: check bird type
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 65.00006
-        y: 556.3334
-        width: 164.05
-        height: 16
+        x: 212.32812
+        y: 543.0078
+        width: 149.20999
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: bird 1
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: bird 1 splash
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: bird 2
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: bird 2 splash
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SetEventProperties
-        - HutongGames.PlayMaker.Actions.SendEventByName
+        - HutongGames.PlayMaker.Actions.GetEventProperties
+        - HutongGames.PlayMaker.Actions.IntSwitch
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000004000000
-        actionHashCodes: afffe300ba7ea101
+        actionHashCodes: afffe300092dca00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams:
-        - target: 1
-          excludeSelf:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          gameObject:
-            ownerOption: 1
-            gameObject:
-              useVariable: 1
-              name: layout
-              tooltip: 
-              showInInspector: 0
-              networkSync: 0
-              value: {fileID: 0}
-          fsmName:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          sendToChildren:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          fsmComponent: {fileID: 0}
+        fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
@@ -4494,16 +4480,10 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: grid_index
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: PLACE BIRD SPLASH
+          value: bird_type
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: grid_index
+        - variableName: bird_type
           objectType: UnityEngine.Object
           useVariable: 1
           type: 1
@@ -4529,48 +4509,367 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams:
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: bird_type
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
-        fsmIntParams: []
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 2
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - bird 1
+        - bird 2
         byteData: 00
-        arrayParamSizes: 0100000001000000
+        arrayParamSizes: 01000000010000000200000002000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
+        - HutongGames.PlayMaker.FsmInt
+        - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c000000120000000c000000270000001f000000120000000f00000001000000
+        paramDataType: 0c000000120000000c00000027000000100000000c00000010000000100000000c000000170000001700000001000000
         paramName:
         - keys
         - 
         - datas
         - 
-        - eventTarget
+        - intVariable
+        - compareTo
+        - 
+        - 
         - sendEvent
-        - delay
+        - 
+        - 
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000010000000000000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000001000000000000000000000002000000010000000200000003000000000000000100000000000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+    - name: add mark
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 55.664062
+        y: 277.0078
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 27fbe10327fbe103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: isFill
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: isLock
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 110000001100000001000000110000001100000001000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000020000000300000001000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000
+    - name: bird 1 splash
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 407.66406
+        y: 630.33594
+        width: 111.81
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.CreateObject
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 60532301
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 785220357729688086, guid: bbd5c85cf5054b54faa03210eaa4a9b0, type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4433262969046451143}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4433262969046451143}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1300000013000000130000001c0000001c00000013000000
+        paramName:
+        - gameObject
+        - parent
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        paramDataPos: 000000000100000002000000000000000100000003000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000
+    - name: bird 2 splash
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 104.33594
+        y: 647.66406
+        width: 113.5
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.CreateObject
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 60532301
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 785220357729688086, guid: a4a55395d817cbf4987e5f59dc68c77c, type: 3}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4433262969046451143}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 4433262969046451143}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1300000013000000130000001c0000001c00000013000000
+        paramName:
+        - gameObject
+        - parent
+        - spawnPoint
+        - position
+        - rotation
+        - storeObject
+        paramDataPos: 000000000100000002000000000000000100000003000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
+    - name: ADD BIRD SPLASH
+      isSystemEvent: 0
+      isGlobal: 0
     - name: BLACK
       isSystemEvent: 0
       isGlobal: 0
+    - name: black again
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: can plant
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: can plant 2
+      isSystemEvent: 0
+      isGlobal: 0
     - name: can tap
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: check can plant2
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: check plant
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: continue
       isSystemEvent: 0
       isGlobal: 0
     - name: dot sticker
@@ -4579,7 +4878,28 @@ MonoBehaviour:
     - name: GRID DATA
       isSystemEvent: 0
       isGlobal: 0
+    - name: has horizontal line
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: has plant
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: has vertical line
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: horizontal line
+      isSystemEvent: 0
+      isGlobal: 0
     - name: LOCK
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: no harizontal line
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: no plant
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: no vertical line
       isSystemEvent: 0
       isGlobal: 0
     - name: TAP
@@ -4591,49 +4911,16 @@ MonoBehaviour:
     - name: WHITE
       isSystemEvent: 0
       isGlobal: 0
-    - name: no vertical line
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: has vertical line
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: horizontal line
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: has horizontal line
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: no harizontal line
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: check plant
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: can plant
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: has plant
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: no plant
-      isSystemEvent: 0
-      isGlobal: 0
     - name: white again
       isSystemEvent: 0
       isGlobal: 0
-    - name: black again
+    - name: MARK
       isSystemEvent: 0
       isGlobal: 0
-    - name: continue
+    - name: bird 1
       isSystemEvent: 0
       isGlobal: 0
-    - name: check can plant2
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: can plant 2
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: PLACE BIRD SPLASH
+    - name: bird 2
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions:
@@ -4674,10 +4961,19 @@ MonoBehaviour:
       linkTarget: 0
       colorIndex: 0
     - fsmEvent:
-        name: PLACE BIRD SPLASH
+        name: ADD BIRD SPLASH
         isSystemEvent: 0
         isGlobal: 0
-      toState: place bird splash
+      toState: check bird type
+      linkStyle: 0
+      linkConstraint: 0
+      linkTarget: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: MARK
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: add mark
       linkStyle: 0
       linkConstraint: 0
       linkTarget: 0
@@ -4717,6 +5013,12 @@ MonoBehaviour:
         value: 0
       - useVariable: 1
         name: item_count_4
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: bird_type
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -4832,7 +5134,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
