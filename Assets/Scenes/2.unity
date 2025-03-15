@@ -234,8 +234,8 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -393,6 +393,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[22].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[23].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[24].value
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
@@ -1118,11 +1126,11 @@ PrefabInstance:
     - target: {fileID: 3026070825939081272, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9c4e874a440c0184291bfe23b1c349de, type: 3}
+      objectReference: {fileID: 21300000, guid: 40289cce3b073a748b84cbb5e8263739, type: 3}
     - target: {fileID: 3657503928436340875, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7d65983329bb0f047ac153cca8e6f0b6, type: 3}
+      objectReference: {fileID: 21300000, guid: 21e52bb1f55e9e447be10a77c07dc2c0, type: 3}
     - target: {fileID: 4263215020810792912, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1221,8 +1229,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8542605534946238980, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8834911969930072327, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6101ff9b5e6b9b243aa227791d4a3d91, type: 3}
     - target: {fileID: 8913688533654303454, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1241,7 +1253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9163952055687927636, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -234,8 +234,8 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -359,22 +359,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -420
       objectReference: {fileID: 0}
-    - target: {fileID: 269139857026693957, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 269139857026693957, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 269139857026693957, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 269139857026693957, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 282027469246062277, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[0].value
       value: 3
@@ -493,7 +477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.boolVariables.Array.data[6].value
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[16].value
@@ -506,6 +490,22 @@ PrefabInstance:
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[22].value
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[23].value
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[24].value
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[25].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.intVariables.Array.data[26].value
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[27].value
@@ -2467,22 +2467,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 1612.2957
       objectReference: {fileID: 0}
-    - target: {fileID: 2808708470972266488, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2808708470972266488, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2808708470972266488, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2808708470972266488, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3026070825939081272, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2643,22 +2627,6 @@ PrefabInstance:
       propertyPath: fsm.states.Array.data[5].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5401652852968742821, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5401652852968742821, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5401652852968742821, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5401652852968742821, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5493082154057765881, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -2691,10 +2659,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -420
       objectReference: {fileID: 0}
-    - target: {fileID: 5626511214107914753, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5748892196676493621, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
@@ -2702,14 +2666,6 @@ PrefabInstance:
     - target: {fileID: 5917683671153030527, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995448195950665701, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995448195950665701, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: fsm.states.Array.data[6].actionData.fsmOwnerDefaultParams.Array.data[1].gameObject.value
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5996524178767437750, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2943,10 +2899,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -420
       objectReference: {fileID: 0}
-    - target: {fileID: 8542605534946238980, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8827418748365682522, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -2967,10 +2919,6 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e00172f9342a6d449a908a99d034a654, type: 3}
-    - target: {fileID: 9163952055687927636, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
