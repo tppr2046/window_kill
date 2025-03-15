@@ -569,7 +569,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {r: 1, g: 1, b: 1, a: 0.5882353}
+            value: {r: 1, g: 1, b: 1, a: 0}
           EnumParameter:
             useVariable: 0
             name: 
