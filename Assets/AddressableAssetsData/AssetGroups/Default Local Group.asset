@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: ab80b1aca4fda604abb6b48685c23bad
   m_SerializeEntries:
+  - m_GUID: 002677cfdf12ee14ab12aaa53f5bf13c
+    m_Address: Assets/Sound/sfx_jingle_lose.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0163b62807bd2594c94f90b3cb40fdec
     m_Address: Assets/Images/level_front_03.png
     m_ReadOnly: 0
@@ -80,6 +85,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d3ce7a7cf143d498700243894d9c6f
+    m_Address: Assets/Sound/sfx_flap.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 24db3891057a5e74a812a26b01db710b
     m_Address: Assets/Images/level_front_04.png
     m_ReadOnly: 0
@@ -112,6 +122,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3adbfd47d3265bc4ebce088fb74d39f1
     m_Address: Assets/Images/item_button_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b587c5677f96164db106905fc227ac7
+    m_Address: Assets/Sound/sfx_hit.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d50930a542ab9a478294363bc68ff2c
+    m_Address: Assets/Sound/sfx_jingle_win.mp3
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -305,6 +325,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba4dcc2bfb62fa546a994b2979e651fa
+    m_Address: Assets/Sound/sfx_click.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bb40fe410d1a8a545b6def4b15ac16e0
     m_Address: Assets/00_grid/mark empty.prefab
     m_ReadOnly: 0
@@ -347,6 +372,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c69a82b24f93eef4c96de057bdc45a0b
     m_Address: Assets/00_grid/SPARK.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8a49763ed7e30f47bc90b533a59b59a
+    m_Address: Assets/Sound/sfx_sticker.mp3
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -410,6 +440,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef2f002753593244e83d1bc2ff3a59ee
+    m_Address: Assets/Sound/bgm_level.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2dc611e40ef55b40a9e39a678749522
     m_Address: Assets/00_grid/Canvas.prefab
     m_ReadOnly: 0
@@ -417,6 +452,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5c7dbfa5fa84ca49879118adc956c58
     m_Address: Assets/Images/level_front_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fca1e9107b2838b459280c5feae44dba
+    m_Address: Assets/Sound/bgm_story.mp3
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
