@@ -2471,6 +2471,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 1612.2957
       objectReference: {fileID: 0}
+    - target: {fileID: 2991120605533207010, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3026070825939081272, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2666,6 +2670,10 @@ PrefabInstance:
     - target: {fileID: 5511198585258342163, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -420
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626511214107914753, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5748892196676493621, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
