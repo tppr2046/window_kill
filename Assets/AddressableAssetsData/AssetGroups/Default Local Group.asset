@@ -15,33 +15,8 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: ab80b1aca4fda604abb6b48685c23bad
   m_SerializeEntries:
-  - m_GUID: 002677cfdf12ee14ab12aaa53f5bf13c
-    m_Address: Assets/Sound/sfx_jingle_lose.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0163b62807bd2594c94f90b3cb40fdec
-    m_Address: Assets/Images/level_front_03.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 02b114d9326b783419bc7de6123a275b
-    m_Address: Assets/Images/level_window_04.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1010b00882a5f1847b80db9a6d4216e3
     m_Address: Assets/Images/tutorial_screen_03.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1049145e9c5c55141b12d5e845e360e2
-    m_Address: Assets/Images/ending_logo_win.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 14152bff7d76b334080b23aba68603c9
-    m_Address: Assets/Images/item_button_4.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -50,23 +25,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 16e52a463ad8fd94e8d7bf35f0b03393
-    m_Address: Assets/Images/bird_pigent_sidebody.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 173d98a1a96981d439d047673495e1e1
-    m_Address: Assets/Images/bird_pigent_wing_up.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1a5ed6b0468a5f244bc49814270bd499
     m_Address: Assets/Images/tutorial_character_03.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1ecb6bcdc3a54b640a637f4dde9334d6
-    m_Address: Assets/Images/level_window_03.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,63 +40,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 21e52bb1f55e9e447be10a77c07dc2c0
-    m_Address: Assets/Images/level_window_02.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 24d3ce7a7cf143d498700243894d9c6f
-    m_Address: Assets/Sound/sfx_flap.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 24db3891057a5e74a812a26b01db710b
-    m_Address: Assets/Images/level_front_04.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2e705573ead37a848bf00074442008fd
-    m_Address: Assets/Images/bird_shadow_five.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 31386615e2339634cb9325276dfe304d
-    m_Address: Assets/Images/hp_icon_empty.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 34a4ba3fdd2502240b1275a2fc15bf46
     m_Address: Assets/Images/logo.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 387ec9e56a797784894c8b620d34d8fe
-    m_Address: Assets/Images/item_button_5.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3a32b11ad4448354ca5dc9fd7c9fab80
-    m_Address: Assets/Images/tutorial_tag_05_1.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3adbfd47d3265bc4ebce088fb74d39f1
-    m_Address: Assets/Images/item_button_2.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3b587c5677f96164db106905fc227ac7
-    m_Address: Assets/Sound/sfx_hit.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3d50930a542ab9a478294363bc68ff2c
-    m_Address: Assets/Sound/sfx_jingle_win.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3d9cc5cccf6fe964fa5caaa298d340ce
-    m_Address: Assets/Images/tutorial_tag_01_1.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -150,11 +55,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4115ab8178b3fda489ff1161d42d3d84
-    m_Address: Assets/Images/hp_icon_full.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 465c0d2c1c12d3b4aa5378832e2256bf
     m_Address: Assets/Images/cover_bg.png
     m_ReadOnly: 0
@@ -165,43 +65,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4a91de7e40a26a343a2169bfc975934c
-    m_Address: Assets/Images/bird_shadow_pigent.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4bf329ab705e14d4788e7aebea1f5b4d
-    m_Address: Assets/Images/tutorial_tag_04_1.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4facd252c4747bb489a5e10453029494
-    m_Address: Assets/Images/item_button_3.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 54482dabf0a7d7041adf8fa0e3f31754
     m_Address: Assets/Images/logo_bird_02.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 58dae110d1b41724d8d066c7e56c9f82
-    m_Address: Assets/Images/item_button_1.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5be7e19a2428f9f4aad55a65383c87f5
-    m_Address: Assets/Images/ending_logo_lost.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5c394b75f1403ba43b43d8d72f5fc3f9
-    m_Address: Assets/Images/level_window_05.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6101ff9b5e6b9b243aa227791d4a3d91
-    m_Address: Assets/Images/level_bg_02.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -215,33 +80,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6986958b1c0a9004c99f1a16bd1adcef
-    m_Address: Assets/Images/level_bg_01.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f44c0b5f5b7fd144bd36be2044ae2bf
     m_Address: Assets/Images/ending_screen.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 71c4441752643fe42820abc08e3bbb16
-    m_Address: Assets/Images/level_bg_03.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 77781f8d696d2344981680dec25f5118
-    m_Address: Assets/Images/level_window_01.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7d214b773d0cf4144becd697da25fad0
-    m_Address: Assets/Images/item_vine.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7db368901f529e44b8f71476f5993450
-    m_Address: Assets/Images/item_plants.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -250,38 +90,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 87d5a1a3149eeba4fb885e2e1b952ba8
-    m_Address: Assets/Images/hit_effect.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8804fabe0da65d846b780e8c60abb737
     m_Address: Assets/Images/button02.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8de2921141ee6c949bba7ee968eb6711
-    m_Address: Assets/Images/bird_pigent_frontbody.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9259fca1663341a489d4d59111159da7
-    m_Address: Assets/Images/tutorial_tag_01_2.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 93ab83bb722749245ae90429fe53c1d6
-    m_Address: Assets/Images/bird_five_wing_down.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9713d15b8e0bf3a459541b8c55f94877
-    m_Address: Assets/Images/item_sticker_line_v.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9b71feeb7669f1a4ca4d91cdc0de00fd
-    m_Address: Assets/Images/bird_five_sidebody.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -300,18 +110,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a4e745aa7f3c9d54797947a99434bab5
-    m_Address: Assets/Images/item_sticker_dot.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aa59cbbb6fed176408dd71b50e4141f6
     m_Address: Assets/Images/level_intro_03.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b292369a2cc00aa4dbcbdddb7be8cb0a
-    m_Address: Assets/Images/item_sticker_line.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -325,28 +125,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ba4dcc2bfb62fa546a994b2979e651fa
-    m_Address: Assets/Sound/sfx_click.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bb40fe410d1a8a545b6def4b15ac16e0
     m_Address: Assets/00_grid/mark empty.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bb810da58499a7245977c4699b710b54
-    m_Address: Assets/Images/bird_five_wing_up.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bbd5c85cf5054b54faa03210eaa4a9b0
     m_Address: Assets/00_grid/Bird Splash1.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bc17715dfec6e4844956ea8bf1bc9e4d
-    m_Address: Assets/Images/level_bg_04.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -375,33 +160,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c8a49763ed7e30f47bc90b533a59b59a
-    m_Address: Assets/Sound/sfx_sticker.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cc0c91c953e126b4ab02209dd6eae830
     m_Address: Assets/Images/logo_bird_04.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cfd85179687162544b4842fdf8c72831
-    m_Address: Assets/Images/tutorial_tag_03_1.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d37296616537212478be11df5c38567c
-    m_Address: Assets/Images/tutorial_tag_01_3.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d45b060017f60644089856ad0cf8f443
     m_Address: Assets/00_grid/vertical_line_image.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d4778791ba06bbf45a02cbcf13459bc8
-    m_Address: Assets/Images/tutorial_tag_02_1.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -415,48 +180,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: df9d7fd408e0ca34c80a7816d41c2f97
-    m_Address: Assets/Images/tutorial_tag_01_4.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e00172f9342a6d449a908a99d034a654
-    m_Address: Assets/Images/level_bg_05.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e6ad223fb689f774abaadbe5d0f5392b
-    m_Address: Assets/Images/bird_pigent_wing_down.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e722121d49274a64f8a73a8323d6a911
     m_Address: Assets/Images/tutorial_character_01.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ee210302b3f9a5e41a34cccb6079d785
-    m_Address: Assets/Images/bird_five_frontbody.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ef2f002753593244e83d1bc2ff3a59ee
-    m_Address: Assets/Sound/bgm_level.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2dc611e40ef55b40a9e39a678749522
     m_Address: Assets/00_grid/Canvas.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f5c7dbfa5fa84ca49879118adc956c58
-    m_Address: Assets/Images/level_front_05.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fca1e9107b2838b459280c5feae44dba
-    m_Address: Assets/Sound/bgm_story.mp3
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

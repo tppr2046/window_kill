@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  m_GroupName: Level 2
+  m_GUID: f09a0f700d99eda49a19367b846a943c
+  m_SerializeEntries:
+  - m_GUID: 21e52bb1f55e9e447be10a77c07dc2c0
+    m_Address: Assets/Images/level_window_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6101ff9b5e6b9b243aa227791d4a3d91
+    m_Address: Assets/Images/level_bg_02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4778791ba06bbf45a02cbcf13459bc8
+    m_Address: Assets/Images/tutorial_tag_02_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d9675b177fd689e479d910a94d73019e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7fcdeab6f0cc8cc43b6c27116279f1d5, type: 2}
+    - {fileID: 11400000, guid: 6528c02ecf14d0540b0bc943d2bd388c, type: 2}

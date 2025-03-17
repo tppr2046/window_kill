@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sound
+  m_EditorClassIdentifier: 
+  m_GroupName: Sound
+  m_GUID: 17ebcc019c3a8554fae453f08622f22b
+  m_SerializeEntries:
+  - m_GUID: 002677cfdf12ee14ab12aaa53f5bf13c
+    m_Address: Assets/Sound/sfx_jingle_lose.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d3ce7a7cf143d498700243894d9c6f
+    m_Address: Assets/Sound/sfx_flap.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b587c5677f96164db106905fc227ac7
+    m_Address: Assets/Sound/sfx_hit.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d50930a542ab9a478294363bc68ff2c
+    m_Address: Assets/Sound/sfx_jingle_win.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba4dcc2bfb62fa546a994b2979e651fa
+    m_Address: Assets/Sound/sfx_click.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8a49763ed7e30f47bc90b533a59b59a
+    m_Address: Assets/Sound/sfx_sticker.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef2f002753593244e83d1bc2ff3a59ee
+    m_Address: Assets/Sound/bgm_level.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fca1e9107b2838b459280c5feae44dba
+    m_Address: Assets/Sound/bgm_story.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d9675b177fd689e479d910a94d73019e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e8d204c27fd85c449962bbd32ac1dda2, type: 2}
+    - {fileID: 11400000, guid: 8b80edb15e5ce4d40821006d8a03874d, type: 2}

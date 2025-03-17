@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: 
+  m_GroupName: Level 5
+  m_GUID: bf93b42368f8d124c8b83bf3fb7b4ddb
+  m_SerializeEntries:
+  - m_GUID: 3a32b11ad4448354ca5dc9fd7c9fab80
+    m_Address: Assets/Images/tutorial_tag_05_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c394b75f1403ba43b43d8d72f5fc3f9
+    m_Address: Assets/Images/level_window_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e00172f9342a6d449a908a99d034a654
+    m_Address: Assets/Images/level_bg_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5c7dbfa5fa84ca49879118adc956c58
+    m_Address: Assets/Images/level_front_05.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d9675b177fd689e479d910a94d73019e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1de82464245d9c143ba00bf1335b31c9, type: 2}
+    - {fileID: 11400000, guid: bc8552dac0a996f43977152bc4799b61, type: 2}

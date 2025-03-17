@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  m_GroupName: Level 1
+  m_GUID: b3e5c7710d71611439f73fcb760590e2
+  m_SerializeEntries:
+  - m_GUID: 1049145e9c5c55141b12d5e845e360e2
+    m_Address: Assets/Images/ending_logo_win.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14152bff7d76b334080b23aba68603c9
+    m_Address: Assets/Images/item_button_4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16e52a463ad8fd94e8d7bf35f0b03393
+    m_Address: Assets/Images/bird_pigent_sidebody.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 173d98a1a96981d439d047673495e1e1
+    m_Address: Assets/Images/bird_pigent_wing_up.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24e42a18472020a49ad5b386c101b8f3
+    m_Address: Assets/Images/hit_mark.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e705573ead37a848bf00074442008fd
+    m_Address: Assets/Images/bird_shadow_five.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31386615e2339634cb9325276dfe304d
+    m_Address: Assets/Images/hp_icon_empty.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 387ec9e56a797784894c8b620d34d8fe
+    m_Address: Assets/Images/item_button_5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3adbfd47d3265bc4ebce088fb74d39f1
+    m_Address: Assets/Images/item_button_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d9cc5cccf6fe964fa5caaa298d340ce
+    m_Address: Assets/Images/tutorial_tag_01_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4115ab8178b3fda489ff1161d42d3d84
+    m_Address: Assets/Images/hp_icon_full.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a91de7e40a26a343a2169bfc975934c
+    m_Address: Assets/Images/bird_shadow_pigent.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4facd252c4747bb489a5e10453029494
+    m_Address: Assets/Images/item_button_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58dae110d1b41724d8d066c7e56c9f82
+    m_Address: Assets/Images/item_button_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5be7e19a2428f9f4aad55a65383c87f5
+    m_Address: Assets/Images/ending_logo_lost.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6986958b1c0a9004c99f1a16bd1adcef
+    m_Address: Assets/Images/level_bg_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77781f8d696d2344981680dec25f5118
+    m_Address: Assets/Images/level_window_01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d214b773d0cf4144becd697da25fad0
+    m_Address: Assets/Images/item_vine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7db368901f529e44b8f71476f5993450
+    m_Address: Assets/Images/item_plants.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87d5a1a3149eeba4fb885e2e1b952ba8
+    m_Address: Assets/Images/hit_effect.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8de2921141ee6c949bba7ee968eb6711
+    m_Address: Assets/Images/bird_pigent_frontbody.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9259fca1663341a489d4d59111159da7
+    m_Address: Assets/Images/tutorial_tag_01_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93ab83bb722749245ae90429fe53c1d6
+    m_Address: Assets/Images/bird_five_wing_down.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9713d15b8e0bf3a459541b8c55f94877
+    m_Address: Assets/Images/item_sticker_line_v.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b71feeb7669f1a4ca4d91cdc0de00fd
+    m_Address: Assets/Images/bird_five_sidebody.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4e745aa7f3c9d54797947a99434bab5
+    m_Address: Assets/Images/item_sticker_dot.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b292369a2cc00aa4dbcbdddb7be8cb0a
+    m_Address: Assets/Images/item_sticker_line.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb810da58499a7245977c4699b710b54
+    m_Address: Assets/Images/bird_five_wing_up.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d37296616537212478be11df5c38567c
+    m_Address: Assets/Images/tutorial_tag_01_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df9d7fd408e0ca34c80a7816d41c2f97
+    m_Address: Assets/Images/tutorial_tag_01_4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6ad223fb689f774abaadbe5d0f5392b
+    m_Address: Assets/Images/bird_pigent_wing_down.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee210302b3f9a5e41a34cccb6079d785
+    m_Address: Assets/Images/bird_five_frontbody.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d9675b177fd689e479d910a94d73019e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: aeb96051a369f974ca6a6861b45679f6, type: 2}
+    - {fileID: 11400000, guid: f0d233b3ad81b3741a1d1a7b8538a51b, type: 2}
