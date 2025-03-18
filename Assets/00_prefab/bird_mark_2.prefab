@@ -2845,7 +2845,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: grid_index
+          value: grid.index
         - useVariable: 0
           name: 
           tooltip: 
