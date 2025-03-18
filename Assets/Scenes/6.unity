@@ -1204,7 +1204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc50bbf7c89092499756e118b38c460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://x.com
+  url: share.html
 --- !u!82 &1687384813
 AudioSource:
   m_ObjectHideFlags: 0

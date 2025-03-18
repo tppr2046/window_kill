@@ -18988,12 +18988,12 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
+        - useVariable: 1
+          name: grid.limit.y
+          tooltip: "\u7E3D\u5171\u7684\u7A97\u683Cy"
+          showInInspector: 1
           networkSync: 0
-          value: 15
+          value: 18
         - useVariable: 1
           name: add.line.loop.index
           tooltip: "\u8FF4\u5708index"
@@ -19963,12 +19963,12 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
+        - useVariable: 1
+          name: grid.limit.y
+          tooltip: "\u7E3D\u5171\u7684\u7A97\u683Cy"
+          showInInspector: 1
           networkSync: 0
-          value: 15
+          value: 18
         - useVariable: 1
           name: add.line.loop.index
           tooltip: "\u8FF4\u5708index"
@@ -28555,6 +28555,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: tutorial end
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINAL
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions:

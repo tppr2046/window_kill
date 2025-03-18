@@ -2895,6 +2895,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -553.74
       objectReference: {fileID: 0}
+    - target: {fileID: 7975593415564131438, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: NEXT LEVEL
+      objectReference: {fileID: 0}
     - target: {fileID: 8037025040152019964, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_ConstraintCount
       value: 23
@@ -2921,7 +2925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8477141365292520992, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_text
-      value: "\u5B8C\u6210\u5566"
+      value: "\u4E0B\u4E00\u6B65"
       objectReference: {fileID: 0}
     - target: {fileID: 8827418748365682522, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchorMax.y
