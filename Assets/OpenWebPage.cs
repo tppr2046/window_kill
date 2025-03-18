@@ -1,10 +1,19 @@
 using UnityEngine;
+using System.Runtime.InteropServices;
 
 public class OpenWebPage : MonoBehaviour
 {
-    public string url;
+#if UNITY_WEBGL && !UNITY_EDITOR
+    [DllImport("__Internal")]
+    private static extern void OpenNewTab(string url);
+#endif
+
     public void OpenNewPage()
     {
-        Application.OpenURL(url);
+#if UNITY_WEBGL && !UNITY_EDITOR
+        OpenNewTab("share.html");
+#else
+        Application.OpenURL("share.html");
+#endif
     }
 }
