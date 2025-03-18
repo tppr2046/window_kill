@@ -2153,7 +2153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[2].value
-      value: 36
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.intVariables.Array.data[3].value
@@ -2205,7 +2205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[1]'
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[2]'
@@ -2213,11 +2213,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[3]'
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[4]'
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[5]'
@@ -2225,11 +2225,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[6]'
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[7]'
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[0]'
@@ -2237,23 +2237,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[1]'
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[2]'
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[3]'
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[4]'
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[5]'
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[6]'
@@ -2890,6 +2890,10 @@ PrefabInstance:
     - target: {fileID: 7830618990990123196, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915345364434367931, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -553.74
       objectReference: {fileID: 0}
     - target: {fileID: 8037025040152019964, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_ConstraintCount
