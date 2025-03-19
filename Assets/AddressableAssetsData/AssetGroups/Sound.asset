@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18215bb96e3f1954ba9395cf15a14057
+    m_Address: Assets/Sound/maou_se_onepoint14.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 24d3ce7a7cf143d498700243894d9c6f
     m_Address: Assets/Sound/sfx_flap.mp3
     m_ReadOnly: 0
