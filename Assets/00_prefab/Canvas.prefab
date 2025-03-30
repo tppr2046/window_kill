@@ -1336,6 +1336,41 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1886926437539166060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4633576680103471662}
+  m_Layer: 5
+  m_Name: marks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4633576680103471662
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886926437539166060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2650480453103174435}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1949246568472363300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,10 +1551,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2650480453103174435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2880669702289376313
 GameObject:
@@ -2447,37 +2482,6 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!1 &3696497417053222922
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5285718525494628798}
-  m_Layer: 0
-  m_Name: marks
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5285718525494628798
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3696497417053222922}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -738.15186, y: -604.9193, z: -2.3500786}
-  m_LocalScale: {x: 1.1690605, y: 1.1690605, z: 1.1690605}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2650480453103174435}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3962534165993680650
 GameObject:
   m_ObjectHideFlags: 0
@@ -4347,7 +4351,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 453.84375
+        x: 1109.8438
         y: 1048.9453
         width: 126.01
         height: 32
@@ -4503,7 +4507,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 240.03125
+        x: 896.03125
         y: 987.0469
         width: 126.48
         height: 48
@@ -4596,7 +4600,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 155.28906
+        x: 811.28906
         y: 110.97656
         width: 108.744995
         height: 32
@@ -4622,6 +4626,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.MathExpression
         - HutongGames.PlayMaker.Actions.MathExpression
         - HutongGames.PlayMaker.Actions.IntOperator
+        - HutongGames.PlayMaker.Actions.GetFsmArray
+        - HutongGames.PlayMaker.Actions.GetFsmArray
         customNames:
         - 
         - 
@@ -4630,10 +4636,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
-        actionStartIndex: 000000000200000003000000070000000b0000000f00000013000000
-        actionHashCodes: d97b72025c0045059f6463029f6463029f6463029f64630214180903
+        - 
+        - 
+        actionEnabled: 010101010101010101
+        actionIsOpen: 010101010101010101
+        actionStartIndex: 000000000200000003000000070000000b0000000f00000013000000180000001f000000
+        actionHashCodes: d97b72025c0045059f6463029f6463029f6463029f64630214180903ad7b8c04ad7b8c04
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -4649,6 +4657,22 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -4688,9 +4712,59 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: grid.limit.x - empty.check.x.2
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: FSM
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: bird_grid_preset_1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: FSM
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: bird_grid_preset_2
         fsmObjectParams: []
         fsmVarParams: []
-        fsmArrayParams: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: bird_grid_index_array_1
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          type: 1
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: bird_grid_index_array_2
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          type: 1
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
@@ -4766,13 +4840,17 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 000000000100000000
+        stringParams:
+        - 
+        - 
+        - 
+        - 
+        byteData: 0000000001000000000101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001300000013000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f00000010000000010000001000000010000000070000001000000001000000
+        paramDataType: 140000001300000013000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f0000001000000001000000120000000f000000100000000100000010000000100000000700000010000000010000001400000012000000120000002900000001000000170000001700000014000000120000001200000029000000010000001700000017000000
         paramName:
         - gameObject
         - storeResult
@@ -4798,14 +4876,28 @@ MonoBehaviour:
         - operation
         - storeResult
         - everyFrame
-        paramDataPos: 000000000000000001000000000000000000000000000000000000000100000001000000010000000100000002000000020000000200000002000000030000000300000003000000030000000400000005000000040000000600000008000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000040000000000000001000000
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - copyValues
+        - fsmNotFound
+        - variableNotFound
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - copyValues
+        - fsmNotFound
+        - variableNotFound
+        paramDataPos: 00000000000000000100000000000000000000000000000000000000010000000100000001000000010000000200000002000000020000000200000003000000030000000300000003000000040000000500000004000000060000000800000001000000040000000500000000000000090000000000000001000000020000000600000007000000010000000a0000000200000003000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000400000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000010000000000000000000000
     - name: loop vertical
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 268.6875
+        x: 924.6875
         y: 819.0469
         width: 110.6
         height: 64
@@ -4907,7 +4999,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 502.89844
+        x: 1158.8984
         y: 895.5
         width: 178.655
         height: 32
@@ -5019,28 +5111,19 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 444.59375
+        x: 1100.5938
         y: 1158.0938
-        width: 143.33
-        height: 48
+        width: 136.82
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: continue
-          isSystemEvent: 0
+          name: FINISHED
+          isSystemEvent: 1
           isGlobal: 0
         toState: add index x
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: add bird grid
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: check bird line x
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -5050,16 +5133,14 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.ArrayAdd
         - HutongGames.PlayMaker.Actions.SetEventProperties
         - HutongGames.PlayMaker.Actions.SendEventByName
-        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
         - 
         - 
-        - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 00000000020000000c00000010000000
-        actionHashCodes: 978a9b03afffe300ba7ea101a4c8bf00
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000020000000c000000
+        actionHashCodes: 978a9b03afffe300ba7ea101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -5277,29 +5358,21 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 1
-          name: isLock
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - continue
-        - add bird grid
-        byteData: 0000
+        stringParams: []
+        byteData: 00
         arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 29000000270000000c000000120000001200000012000000120000000c000000270000002700000027000000270000001f000000120000000f0000000100000011000000170000001700000001000000
+        paramDataType: 29000000270000000c000000120000001200000012000000120000000c000000270000002700000027000000270000001f000000120000000f00000001000000
         paramName:
         - array
         - value
@@ -5317,18 +5390,14 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 0000000000000000000000000000000001000000020000000300000001000000010000000200000003000000040000000000000004000000000000000000000000000000000000000100000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000010000000200000003000000010000000100000002000000030000000400000000000000040000000000000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: add index x
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 446.71875
+        x: 1102.7188
         y: 1253.7344
         width: 104.75
         height: 32
@@ -5423,7 +5492,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1785.6719
+        x: 2441.6719
         y: 961.3203
         width: 100
         height: 32
@@ -5559,7 +5628,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1787
+        x: 2443
         y: 1034
         width: 101.2
         height: 16
@@ -5877,7 +5946,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1796.3359
+        x: 2452.336
         y: 887.6328
         width: 139.22
         height: 32
@@ -5958,7 +6027,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2071.664
+        x: 2727.664
         y: 696.3281
         width: 186.65
         height: 48
@@ -6080,7 +6149,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2060.7578
+        x: 2716.7578
         y: 968.0703
         width: 106.73
         height: 32
@@ -6216,7 +6285,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2058.086
+        x: 2714.086
         y: 1040.7578
         width: 132.04001
         height: 16
@@ -6520,7 +6589,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2063.414
+        x: 2719.414
         y: 881.71875
         width: 162.12
         height: 32
@@ -6601,7 +6670,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2382.336
+        x: 3038.336
         y: 669.2578
         width: 179.87
         height: 48
@@ -6723,7 +6792,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2642
+        x: 3298
         y: 669.66406
         width: 206.57
         height: 48
@@ -6845,7 +6914,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2351.3984
+        x: 3007.3984
         y: 959.0703
         width: 100
         height: 32
@@ -6981,7 +7050,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2356.7266
+        x: 3012.7266
         y: 1030.4219
         width: 113.51
         height: 16
@@ -7299,7 +7368,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2362.0625
+        x: 3018.0625
         y: 885.3828
         width: 154.88
         height: 32
@@ -7380,7 +7449,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2633.3984
+        x: 3289.3984
         y: 969.72656
         width: 119.04
         height: 32
@@ -7516,7 +7585,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2634.7266
+        x: 3290.7266
         y: 1042.4062
         width: 144.36
         height: 16
@@ -7820,7 +7889,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2644.0625
+        x: 3300.0625
         y: 896.03906
         width: 177.77
         height: 32
@@ -7901,7 +7970,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2991.0078
+        x: 3647.0078
         y: 664.66406
         width: 106.07
         height: 48
@@ -8023,7 +8092,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3239.6797
+        x: 3895.6797
         y: 678.27344
         width: 132.76001
         height: 48
@@ -8145,7 +8214,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2935.0078
+        x: 3591.0078
         y: 981.3281
         width: 175.95
         height: 32
@@ -8226,7 +8295,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2953.0078
+        x: 3609.0078
         y: 1056.6641
         width: 120.56
         height: 32
@@ -8362,7 +8431,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2928.3594
+        x: 3584.3594
         y: 1134
         width: 137.92
         height: 16
@@ -8680,7 +8749,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3203.0156
+        x: 3859.0156
         y: 974.46094
         width: 143.45999
         height: 32
@@ -8816,7 +8885,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3190.3516
+        x: 3846.3516
         y: 1057.8047
         width: 168.77
         height: 16
@@ -9120,7 +9189,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3191.6797
+        x: 3847.6797
         y: 898.77344
         width: 174.43
         height: 32
@@ -9201,7 +9270,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1115.1953
+        x: 1771.1953
         y: 668.9453
         width: 130.04001
         height: 48
@@ -9323,8 +9392,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 650.64844
-        y: 1362.5547
+        x: 61.757812
+        y: 1505.5391
         width: 193.58
         height: 32
       isBreakpoint: 0
@@ -9335,7 +9404,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: add index x
+        toState: "\u72C0\u614B 1"
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -9466,7 +9535,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1141.1016
+        x: 1797.1016
         y: 1180.9922
         width: 118.62
         height: 32
@@ -9739,7 +9808,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1134.9062
+        x: 1790.9062
         y: 1300.8828
         width: 151.93
         height: 32
@@ -9848,7 +9917,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1399.2188
+        x: 2055.2188
         y: 1195.6094
         width: 166.91
         height: 32
@@ -9991,7 +10060,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2064.6094
+        x: 2720.6094
         y: 1372.2109
         width: 117.29
         height: 32
@@ -10125,7 +10194,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2060.5938
+        x: 2716.5938
         y: 1282.1953
         width: 128.22
         height: 48
@@ -10242,7 +10311,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1407.0469
+        x: 2063.0469
         y: 1281.5
         width: 128.22
         height: 48
@@ -10335,7 +10404,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1639.3047
+        x: 2295.3047
         y: 1398.1797
         width: 100.15
         height: 32
@@ -10413,7 +10482,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1770.6172
+        x: 2426.6172
         y: 1284.4766
         width: 128.22
         height: 48
@@ -10506,7 +10575,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1821.9609
+        x: 2477.961
         y: 1393.6484
         width: 100
         height: 32
@@ -10584,7 +10653,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1415.0078
+        x: 2071.0078
         y: 1368.9453
         width: 100
         height: 32
@@ -10662,7 +10731,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1401.3906
+        x: 2057.3906
         y: 1558.7422
         width: 166.52
         height: 32
@@ -10757,7 +10826,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1397.7188
+        x: 2053.7188
         y: 1425.9688
         width: 128.22
         height: 48
@@ -10874,7 +10943,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2082.3906
+        x: 2738.3906
         y: 1720.7656
         width: 118.97
         height: 32
@@ -11008,7 +11077,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2079.711
+        x: 2735.711
         y: 1627.4141
         width: 128.22
         height: 48
@@ -11125,7 +11194,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1426.1641
+        x: 2082.164
         y: 1626.7188
         width: 128.22
         height: 48
@@ -11218,7 +11287,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1658.4219
+        x: 2314.4219
         y: 1743.3984
         width: 108.25
         height: 32
@@ -11296,7 +11365,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1789.7344
+        x: 2445.7344
         y: 1629.6953
         width: 128.22
         height: 48
@@ -11389,7 +11458,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1841.0781
+        x: 2497.0781
         y: 1738.8672
         width: 108.04
         height: 32
@@ -11467,7 +11536,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1434.125
+        x: 2090.125
         y: 1714.1641
         width: 105.75
         height: 32
@@ -11545,7 +11614,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 1416.8359
+        x: 2072.836
         y: 1771.1875
         width: 128.22
         height: 48
@@ -11662,7 +11731,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 942.3672
+        x: 1598.3672
         y: 1558.1562
         width: 168.2
         height: 160
@@ -11890,7 +11959,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1465.4062
+        x: 2121.4062
         y: 687.3594
         width: 144.73999
         height: 48
@@ -12012,7 +12081,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2280.336
+        x: 2936.336
         y: 1327
         width: 106.66
         height: 48
@@ -12096,7 +12165,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2058.3828
+        x: 2714.3828
         y: 1446.9688
         width: 100
         height: 32
@@ -12223,7 +12292,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2310.664
+        x: 2966.664
         y: 1650
         width: 113.46
         height: 48
@@ -12307,7 +12376,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 2095.7188
+        x: 2751.7188
         y: 1809.6016
         width: 100
         height: 32
@@ -12434,8 +12503,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 673.33594
-        y: 1092.0859
+        x: 84.44531
+        y: 1235.0703
         width: 141.06
         height: 48
       isBreakpoint: 0
@@ -12527,8 +12596,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 669.3125
-        y: 1277.4922
+        x: 80.421875
+        y: 1420.4766
         width: 178.83
         height: 32
       isBreakpoint: 0
@@ -12539,7 +12608,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: add index x
+        toState: "\u72C0\u614B 1"
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -12629,8 +12698,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 678.0078
-        y: 1180.4297
+        x: 89.11719
+        y: 1323.4141
         width: 140.53
         height: 48
       isBreakpoint: 0
@@ -12650,7 +12719,7 @@ MonoBehaviour:
           name: continue
           isSystemEvent: 0
           isGlobal: 0
-        toState: add index x
+        toState: "\u72C0\u614B 1"
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -12722,7 +12791,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 662.5
+        x: 1318.5
         y: 671.1797
         width: 108.98
         height: 16
@@ -12807,8 +12876,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 668.3125
-        y: 1020.1328
+        x: 79.421875
+        y: 1163.1172
         width: 136.6
         height: 32
       isBreakpoint: 0
@@ -12892,8 +12961,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 922.8594
-        y: 1190.3984
+        x: 333.96875
+        y: 1333.3828
         width: 140.53
         height: 48
       isBreakpoint: 0
@@ -12985,8 +13054,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 929.65625
-        y: 1094.1406
+        x: 340.76562
+        y: 1237.125
         width: 121.64
         height: 48
       isBreakpoint: 0
@@ -13006,7 +13075,7 @@ MonoBehaviour:
           name: continue
           isSystemEvent: 0
           isGlobal: 0
-        toState: add index x
+        toState: "\u72C0\u614B 1"
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -13078,7 +13147,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1112.5234
+        x: 1768.5234
         y: 907.2969
         width: 104.28
         height: 16
@@ -13346,7 +13415,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1148.1953
+        x: 1804.1953
         y: 753.96094
         width: 153.53
         height: 48
@@ -13439,7 +13508,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1140.8672
+        x: 1796.8672
         y: 828.6172
         width: 100
         height: 32
@@ -13654,7 +13723,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1444.0859
+        x: 2100.086
         y: 812.6406
         width: 127.17
         height: 16
@@ -13908,7 +13977,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1621.0859
+        x: 2277.086
         y: 757.9453
         width: 100
         height: 32
@@ -14189,7 +14258,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 137.39844
+        x: 793.39844
         y: 180.57031
         width: 144.65
         height: 48
@@ -14273,7 +14342,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 396.4453
+        x: 1052.4453
         y: 226.07812
         width: 117.91
         height: 32
@@ -14470,7 +14539,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 396.4453
+        x: 1052.4453
         y: 172.45312
         width: 128.56
         height: 32
@@ -14667,7 +14736,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 137.875
+        x: 793.875
         y: 273.08594
         width: 142.73001
         height: 48
@@ -14751,7 +14820,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 376.2422
+        x: 1032.2422
         y: 347.0078
         width: 115.98
         height: 32
@@ -14948,7 +15017,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 376.2422
+        x: 1032.2422
         y: 293.3828
         width: 126.63
         height: 32
@@ -15145,7 +15214,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 134.90625
+        x: 790.90625
         y: 389.14062
         width: 144.41
         height: 48
@@ -15229,7 +15298,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 373.27344
+        x: 1029.2734
         y: 463.0625
         width: 117.67
         height: 32
@@ -15426,7 +15495,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 373.27344
+        x: 1029.2734
         y: 409.4375
         width: 128.32
         height: 32
@@ -15623,7 +15692,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 133.40625
+        x: 789.40625
         y: 505.65625
         width: 144.79001
         height: 48
@@ -15707,7 +15776,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 371.77344
+        x: 1027.7734
         y: 579.5781
         width: 118.04
         height: 32
@@ -15904,7 +15973,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 371.77344
+        x: 1027.7734
         y: 525.9531
         width: 128.69
         height: 32
@@ -16101,7 +16170,7 @@ MonoBehaviour:
       colorIndex: 6
       position:
         serializedVersion: 2
-        x: 1870.9922
+        x: 2526.9922
         y: 281.33594
         width: 162.82
         height: 16
@@ -16170,7 +16239,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1768.6797
+        x: 2424.6797
         y: 661.66406
         width: 159.96
         height: 48
@@ -16292,7 +16361,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1824.6016
+        x: 2480.6016
         y: 814.3594
         width: 100
         height: 32
@@ -16507,7 +16576,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1809.6875
+        x: 2465.6875
         y: 739.0078
         width: 152.72
         height: 48
@@ -16600,7 +16669,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2156.1406
+        x: 2812.1406
         y: 791.625
         width: 100
         height: 32
@@ -16881,7 +16950,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2425.3438
+        x: 3081.3438
         y: 829.64844
         width: 100
         height: 32
@@ -17096,7 +17165,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2400.3516
+        x: 3056.3516
         y: 759
         width: 153.13
         height: 48
@@ -17189,7 +17258,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2685.6719
+        x: 3341.6719
         y: 773.65625
         width: 100
         height: 32
@@ -17470,7 +17539,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2978.6328
+        x: 3634.6328
         y: 826.10156
         width: 107.87
         height: 32
@@ -17685,7 +17754,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2956.6406
+        x: 3612.6406
         y: 742.7656
         width: 177.71
         height: 48
@@ -17778,7 +17847,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3265.875
+        x: 3921.875
         y: 774.375
         width: 122.52
         height: 32
@@ -18059,7 +18128,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3550.4766
+        x: 4206.4766
         y: 673.8125
         width: 118.39
         height: 48
@@ -18181,7 +18250,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3799.1484
+        x: 4455.1484
         y: 687.4219
         width: 145.08
         height: 48
@@ -18303,7 +18372,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3485.8047
+        x: 4141.8047
         y: 991.8047
         width: 188.27
         height: 32
@@ -18384,7 +18453,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3503.8047
+        x: 4159.8047
         y: 1067.1406
         width: 132.88
         height: 32
@@ -18520,7 +18589,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3479.1562
+        x: 4135.1562
         y: 1144.4766
         width: 150.23999
         height: 16
@@ -18838,7 +18907,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3762.4844
+        x: 4418.4844
         y: 983.6094
         width: 155.76999
         height: 32
@@ -18974,7 +19043,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3749.8203
+        x: 4405.8203
         y: 1066.9531
         width: 181.09
         height: 16
@@ -19278,7 +19347,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3751.1484
+        x: 4407.1484
         y: 907.9219
         width: 174.81
         height: 32
@@ -19359,7 +19428,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3534.1016
+        x: 4190.1016
         y: 844.58594
         width: 108.25
         height: 32
@@ -19574,7 +19643,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3508.1094
+        x: 4164.1094
         y: 758.58594
         width: 190.02
         height: 48
@@ -19667,7 +19736,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3825.3438
+        x: 4481.3438
         y: 783.52344
         width: 134.84
         height: 32
@@ -19948,7 +20017,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 535.3281
+        x: 1191.3281
         y: 826
         width: 145.595
         height: 32
@@ -20026,7 +20095,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 55.320312
+        x: 711.3203
         y: 640.5078
         width: 144.86
         height: 48
@@ -20110,7 +20179,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 293.6875
+        x: 949.6875
         y: 714.4297
         width: 118.11
         height: 32
@@ -20307,7 +20376,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 293.6875
+        x: 949.6875
         y: 660.8047
         width: 128.76001
         height: 32
@@ -20504,7 +20573,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1284.1172
+        x: 1940.1172
         y: 167.28125
         width: 156.23999
         height: 48
@@ -20676,7 +20745,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1301.1953
+        x: 1957.1953
         y: 401.77344
         width: 131.8
         height: 32
@@ -20812,7 +20881,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1302.5234
+        x: 1958.5234
         y: 474.45312
         width: 113.89
         height: 16
@@ -21147,7 +21216,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1304.25
+        x: 1960.25
         y: 287.5625
         width: 136.22
         height: 32
@@ -21231,7 +21300,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1487.9922
+        x: 2143.9922
         y: 212.9375
         width: 122.41
         height: 32
@@ -21326,7 +21395,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1113.1172
+        x: 1769.1172
         y: 230.91406
         width: 124.1
         height: 32
@@ -21421,7 +21490,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1564.6328
+        x: 2220.6328
         y: 294.6797
         width: 134.72
         height: 48
@@ -21514,7 +21583,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1567.5234
+        x: 2223.5234
         y: 367.82812
         width: 139.95999
         height: 32
@@ -21609,7 +21678,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 2973
+        x: 3629
         y: 900.6719
         width: 144.31
         height: 32
@@ -22000,7 +22069,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 3519.3281
+        x: 4175.328
         y: 911.66406
         width: 156.62
         height: 32
@@ -22351,6 +22420,58 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000000000000100000001000000000000000100000002000000010000000200000001000000020000000300000004000000030000000000000000000000010000000200000002000000060000000400000001000000030000000400000005000000070000000b0000000c0000000500000005000000060000000d0000000e000000060000000200000003000000020000000f000000
         paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000001000000000000000000000000000000000000000000000004000000010000000100000000000000000000000000000001000000010000000000000000000000000000000000000001000000
+    - name: "\u72C0\u614B 1"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 560.78125
+        y: 1225.1016
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -22954,12 +23075,38 @@ MonoBehaviour:
         stringValues: []
         vector4Values: []
         objectReferences: []
+      - useVariable: 1
+        name: bird_grid_preset_1
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        type: 1
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
+      - useVariable: 1
+        name: bird_grid_preset_2
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        type: 1
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
       enumVariables: []
       categories:
       - 
       - item_action
       - Preset
-      variableCategoryIDs: 0000000000000000010000000100000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000100000001000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -23074,6 +23221,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.FloatOperator
+        - HutongGames.PlayMaker.Actions.GetFsmArray
+        - HutongGames.PlayMaker.Actions.GetFsmArray
         customNames:
         - 
         - 
@@ -23085,13 +23234,31 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101010101
-        actionIsOpen: 01010101010101010101
-        actionStartIndex: 00000000070000000c00000011000000160000001b00000020000000250000002700000029000000
-        actionHashCodes: ad7b8c04081bbf05081bbf05081bbf05081bbf05081bbf05081bbf055ac852045ac852040cdb0405
+        - 
+        - 
+        actionEnabled: 010101010101010101010101
+        actionIsOpen: 010101010101010101010101
+        actionStartIndex: 00000000070000000c00000011000000160000001b000000200000002500000027000000290000002e00000035000000
+        actionHashCodes: ad7b8c04081bbf05081bbf05081bbf05081bbf05081bbf05081bbf055ac852045ac852040cdb0405ad7b8c04ad7b8c04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -23503,6 +23670,30 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: empty.check.y.2
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: FSM
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: bird_grid_preset_1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: FSM
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: bird_grid_preset_2
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams:
@@ -23512,6 +23703,32 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           type: 2
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: bird_grid_preset_1
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 1
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: bird_grid_preset_2
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 1
           objectTypeName: UnityEngine.Object
           floatValues: []
           intValues: 
@@ -23585,12 +23802,16 @@ MonoBehaviour:
         stringParams:
         - 
         - 
-        byteData: 0100000000000000000000000000
+        - 
+        - 
+        - 
+        - 
+        byteData: 01000000000000000000000000000101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001200000029000000010000001700000017000000140000001200000012000000100000000100000014000000120000001200000010000000010000001400000012000000120000001000000001000000140000001200000012000000100000000100000014000000120000001200000010000000010000001400000012000000120000001000000001000000240000000100000024000000010000000f0000000f000000070000000f00000001000000
+        paramDataType: 14000000120000001200000029000000010000001700000017000000140000001200000012000000100000000100000014000000120000001200000010000000010000001400000012000000120000001000000001000000140000001200000012000000100000000100000014000000120000001200000010000000010000001400000012000000120000001000000001000000240000000100000024000000010000000f0000000f000000070000000f000000010000001400000012000000120000002900000001000000170000001700000014000000120000001200000029000000010000001700000017000000
         paramName:
         - gameObject
         - fsmName
@@ -23638,8 +23859,22 @@ MonoBehaviour:
         - operation
         - storeResult
         - everyFrame
-        paramDataPos: 000000000000000001000000000000000000000000000000010000000100000002000000030000000000000001000000020000000400000005000000010000000200000003000000060000000700000002000000030000000400000008000000090000000300000004000000050000000a0000000b0000000400000005000000060000000c0000000d000000050000000600000000000000070000000100000008000000000000000100000009000000020000000d000000
-        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000100000000000000010000000000000000000000040000000000000001000000
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - copyValues
+        - fsmNotFound
+        - variableNotFound
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - copyValues
+        - fsmNotFound
+        - variableNotFound
+        paramDataPos: 000000000000000001000000000000000000000000000000010000000100000002000000030000000000000001000000020000000400000005000000010000000200000003000000060000000700000002000000030000000400000008000000090000000300000004000000050000000a0000000b0000000400000005000000060000000c0000000d000000050000000600000000000000070000000100000008000000000000000100000009000000020000000d000000070000000e0000000f000000010000000e0000000200000003000000080000001000000011000000020000000f0000000400000005000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000000000001000000000000000100000000000000000000000400000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000010000000000000000000000
     - name: bird come start
       description: 
       colorIndex: 3
@@ -23812,7 +24047,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 3696497417053222922}
+          value: {fileID: 1886926437539166060}
         - useVariable: 0
           name: 
           tooltip: 
@@ -24271,7 +24506,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 3696497417053222922}
+          value: {fileID: 1886926437539166060}
         - useVariable: 0
           name: 
           tooltip: 
@@ -24815,24 +25050,15 @@ MonoBehaviour:
         serializedVersion: 2
         x: 51.992188
         y: 438.32812
-        width: 169.17
-        height: 48
+        width: 162.86
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: choose again
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: random choose bird 1
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: not fill
-          isSystemEvent: 0
+          name: FINISHED
+          isSystemEvent: 1
           isGlobal: 0
         toState: bird 1
         linkStyle: 0
@@ -24843,15 +25069,13 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.ArrayGetRandom
         - HutongGames.PlayMaker.Actions.ArrayGet
-        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
         - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000050000000a000000
-        actionHashCodes: 597887006ba59301a4c8bf00
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 597887006ba59301
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -24864,10 +25088,10 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: isFill
+        - variableName: bird.mark.index.now
           objectType: UnityEngine.Object
           useVariable: 1
-          type: 2
+          type: 1
           floatValue: 0
           intValue: 0
           boolValue: 0
@@ -24914,11 +25138,11 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams:
         - useVariable: 1
-          name: grid_lock_preset_array
+          name: bird_grid_preset_1
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          type: 2
+          type: 1
           objectTypeName: UnityEngine.Object
           floatValues: []
           intValues: 
@@ -24943,7 +25167,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: bird.mark.index.now
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -24960,12 +25184,6 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
-        - useVariable: 1
-          name: isFill
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
           value: 0
         fsmVector2Params: []
         fsmVector3Params: []
@@ -24974,14 +25192,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - choose again
-        - not fill
-        byteData: 000000
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2900000027000000100000001100000001000000290000001000000027000000010000001700000011000000170000001700000001000000
+        paramDataType: 29000000270000001000000011000000010000002900000010000000270000000100000017000000
         paramName:
         - array
         - storeValue
@@ -24993,12 +25209,8 @@ MonoBehaviour:
         - storeValue
         - everyFrame
         - indexOutOfRange
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000001000000010000000000000001000000010000000200000002000000
-        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000000000000100000001000000010000000100000000000000
+        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000000000000100000000000000
     - name: choose bird empty 1
       description: 
       colorIndex: 0
@@ -25335,24 +25547,15 @@ MonoBehaviour:
         serializedVersion: 2
         x: 543.6406
         y: 426.0078
-        width: 170.86
-        height: 48
+        width: 162.86
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: choose again
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: random choose bird 2
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
-      - fsmEvent:
-          name: not fill
-          isSystemEvent: 0
+          name: FINISHED
+          isSystemEvent: 1
           isGlobal: 0
         toState: bird 2
         linkStyle: 0
@@ -25363,15 +25566,13 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.ArrayGetRandom
         - HutongGames.PlayMaker.Actions.ArrayGet
-        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
         - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000050000000a000000
-        actionHashCodes: 597887006ba59301a4c8bf00
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000005000000
+        actionHashCodes: 597887006ba59301
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -25384,10 +25585,10 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: isFill
+        - variableName: bird.mark.index.now
           objectType: UnityEngine.Object
           useVariable: 1
-          type: 2
+          type: 1
           floatValue: 0
           intValue: 0
           boolValue: 0
@@ -25434,11 +25635,11 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams:
         - useVariable: 1
-          name: grid_lock_preset_array
+          name: bird_grid_preset_2
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          type: 2
+          type: 1
           objectTypeName: UnityEngine.Object
           floatValues: []
           intValues: 
@@ -25463,7 +25664,7 @@ MonoBehaviour:
         fsmFloatParams: []
         fsmIntParams:
         - useVariable: 1
-          name: bird.mark.index.now
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -25480,12 +25681,6 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
-        - useVariable: 1
-          name: isFill
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
           value: 0
         fsmVector2Params: []
         fsmVector3Params: []
@@ -25494,14 +25689,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - choose again
-        - not fill
-        byteData: 000000
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 2900000027000000100000001100000001000000290000001000000027000000010000001700000011000000170000001700000001000000
+        paramDataType: 29000000270000001000000011000000010000002900000010000000270000000100000017000000
         paramName:
         - array
         - storeValue
@@ -25513,12 +25706,8 @@ MonoBehaviour:
         - storeValue
         - everyFrame
         - indexOutOfRange
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000001000000010000000000000001000000010000000200000002000000
-        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000000000000100000001000000010000000100000000000000
+        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000000000000100000000000000
     - name: choose bird empty 2
       description: 
       colorIndex: 0
@@ -26608,10 +26797,36 @@ MonoBehaviour:
         stringValues: []
         vector4Values: []
         objectReferences: []
+      - useVariable: 1
+        name: bird_grid_preset_1
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 1
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
+      - useVariable: 1
+        name: bird_grid_preset_2
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 1
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -29654,7 +29869,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 3696497417053222922}
+            value: {fileID: 1886926437539166060}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -31413,7 +31628,7 @@ RectTransform:
   - {fileID: 4200937405554204952}
   - {fileID: 2780322606478075556}
   - {fileID: 7830618990990123196}
-  - {fileID: 5285718525494628798}
+  - {fileID: 4633576680103471662}
   - {fileID: 2948004660609862287}
   - {fileID: 7257820536352942028}
   - {fileID: 6022420456159260255}

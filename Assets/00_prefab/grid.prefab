@@ -764,8 +764,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 711.3203
-        y: 109.27344
+        x: 710.64844
+        y: 109.9375
         width: 100
         height: 32
       isBreakpoint: 0
@@ -960,7 +960,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 333.7422
-        y: 325.58594
+        y: 405.58594
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1029,7 +1029,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 497.03906
-        y: 410.90625
+        y: 490.90625
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1163,7 +1163,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {r: 1, g: 1, b: 1, a: 0}
+            value: {r: 1, g: 1, b: 1, a: 0.19607843}
           EnumParameter:
             useVariable: 0
             name: 
@@ -1234,7 +1234,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 893.96875
-        y: 426.3203
+        y: 506.3203
         width: 100
         height: 48
       isBreakpoint: 0
@@ -1313,29 +1313,36 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000000000000
         paramByteDataSize: 00000000000000000000000001000000
     - name: get grid data
-      description: 
+      description: call back
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 708.9844
-        y: 172.32812
+        x: 704.96875
+        y: 177.65625
         width: 113.76
-        height: 16
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: check is lock
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetEventProperties
-        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 000000000a000000
-        actionHashCodes: afffe300a4c8bf00
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: afffe300
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1472,29 +1479,21 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams: []
-        fsmBoolParams:
-        - useVariable: 1
-          name: isLock
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 0
+        fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - LOCK
-        - WHITE
-        byteData: 00
+        stringParams: []
+        byteData: 
         arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c000000120000001200000012000000120000000c0000002700000027000000270000002700000011000000170000001700000001000000
+        paramDataType: 0c000000120000001200000012000000120000000c00000027000000270000002700000027000000
         paramName:
         - keys
         - 
@@ -1506,19 +1505,15 @@ MonoBehaviour:
         - 
         - 
         - 
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 0000000000000000010000000200000003000000010000000000000001000000020000000300000000000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000100000002000000030000000100000000000000010000000200000003000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     - name: lock
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 897.64844
-        y: 107
+        y: 187
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1723,7 +1718,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1039.6406
-        y: 248
+        y: 328
         width: 104.94
         height: 48
       isBreakpoint: 0
@@ -1807,7 +1802,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1028.9844
-        y: 347
+        y: 427
         width: 133.28
         height: 96
       isBreakpoint: 0
@@ -2014,7 +2009,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1001.9922
-        y: 694.3281
+        y: 774.3281
         width: 130.2
         height: 16
       isBreakpoint: 0
@@ -2351,7 +2346,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1028.9922
-        y: 550.9922
+        y: 630.9922
         width: 148.25
         height: 48
       isBreakpoint: 0
@@ -2435,7 +2430,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1059.9922
-        y: 753.0156
+        y: 833.0156
         width: 157.12
         height: 16
       isBreakpoint: 0
@@ -2693,7 +2688,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1406.9922
-        y: 493.66406
+        y: 573.66406
         width: 164.13
         height: 48
       isBreakpoint: 0
@@ -2777,7 +2772,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1477.6406
-        y: 702.9922
+        y: 782.9922
         width: 173
         height: 16
       isBreakpoint: 0
@@ -3035,7 +3030,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1481.6562
-        y: 642.3125
+        y: 722.3125
         width: 146.07
         height: 16
       isBreakpoint: 0
@@ -3322,7 +3317,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1805.3203
-        y: 361.96094
+        y: 441.96094
         width: 132.16
         height: 32
       isBreakpoint: 0
@@ -3397,7 +3392,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1788.6328
-        y: 442.64844
+        y: 522.64844
         width: 131.81
         height: 48
       isBreakpoint: 0
@@ -3481,7 +3476,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1771.6484
-        y: 600.0156
+        y: 680.0156
         width: 100
         height: 16
       isBreakpoint: 0
@@ -3673,7 +3668,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1835.2969
-        y: 662.0547
+        y: 742.0547
         width: 113.81
         height: 16
       isBreakpoint: 0
@@ -3931,7 +3926,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 797.64844
-        y: 628.65625
+        y: 708.65625
         width: 168.33
         height: 48
       isBreakpoint: 0
@@ -4057,7 +4052,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1276.9922
-        y: 584.33594
+        y: 664.33594
         width: 184.21
         height: 48
       isBreakpoint: 0
@@ -4183,7 +4178,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1693.4844
-        y: 529.27344
+        y: 609.27344
         width: 125.02
         height: 48
       isBreakpoint: 0
@@ -4309,7 +4304,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2388.6172
-        y: 351.3672
+        y: 431.3672
         width: 144.48001
         height: 32
       isBreakpoint: 0
@@ -4384,7 +4379,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2434.586
-        y: 459.15625
+        y: 539.15625
         width: 144.12
         height: 48
       isBreakpoint: 0
@@ -4468,7 +4463,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2468.9375
-        y: 601.85156
+        y: 681.85156
         width: 100
         height: 16
       isBreakpoint: 0
@@ -4660,7 +4655,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2471.9219
-        y: 651.8594
+        y: 731.8594
         width: 126.12
         height: 16
       isBreakpoint: 0
@@ -4941,7 +4936,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2339.4375
-        y: 545.78125
+        y: 625.78125
         width: 137.33
         height: 48
       isBreakpoint: 0
@@ -5067,7 +5062,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 340.32812
-        y: 543.0078
+        y: 623.0078
         width: 149.20999
         height: 48
       isBreakpoint: 0
@@ -5207,7 +5202,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 62.328125
-        y: 293.0078
+        y: 373.0078
         width: 100
         height: 16
       isBreakpoint: 0
@@ -5293,7 +5288,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 506.32812
-        y: 641
+        y: 721
         width: 111.81
         height: 32
       isBreakpoint: 0
@@ -5398,7 +5393,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 232.33594
-        y: 647.66406
+        y: 727.66406
         width: 113.5
         height: 32
       isBreakpoint: 0
@@ -5503,7 +5498,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 748.9922
-        y: 403.6797
+        y: 483.6797
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5614,7 +5609,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 686.3281
-        y: 556.6797
+        y: 636.6797
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5946,7 +5941,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1292
-        y: 267.67188
+        y: 347.67188
         width: 143.91
         height: 48
       isBreakpoint: 0
@@ -6049,7 +6044,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 708.33594
-        y: 481.66406
+        y: 561.66406
         width: 161.98
         height: 48
       isBreakpoint: 0
@@ -6175,7 +6170,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2097.3203
-        y: 450.34375
+        y: 530.34375
         width: 106.34
         height: 32
       isBreakpoint: 0
@@ -6324,7 +6319,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2661.3281
-        y: 380.3047
+        y: 460.3047
         width: 130.95
         height: 32
       isBreakpoint: 0
@@ -6473,7 +6468,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 338.66406
-        y: 267.34375
+        y: 347.34375
         width: 137.72
         height: 32
       isBreakpoint: 0
@@ -6548,7 +6543,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 540.66406
-        y: 259.33594
+        y: 339.33594
         width: 138.41
         height: 32
       isBreakpoint: 0
@@ -6623,7 +6618,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 965.3203
-        y: 1002.6719
+        y: 1082.6719
         width: 104.84
         height: 16
       isBreakpoint: 0
@@ -6710,7 +6705,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2090.3281
-        y: 586.3281
+        y: 666.3281
         width: 126.22
         height: 16
       isBreakpoint: 0
@@ -6850,7 +6845,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2091.9922
-        y: 516
+        y: 596
         width: 161.45
         height: 32
       isBreakpoint: 0
@@ -6958,7 +6953,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2684.9922
-        y: 558.33594
+        y: 638.33594
         width: 100
         height: 16
       isBreakpoint: 0
@@ -7098,7 +7093,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 2677.664
-        y: 465
+        y: 545
         width: 173.77
         height: 32
       isBreakpoint: 0
@@ -7206,7 +7201,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 354.66406
-        y: 721
+        y: 801
         width: 104.53
         height: 32
       isBreakpoint: 0
@@ -7346,7 +7341,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 356.32812
-        y: 795.66406
+        y: 875.66406
         width: 124.65
         height: 16
       isBreakpoint: 0
@@ -7421,7 +7416,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 521.66406
-        y: 331.66406
+        y: 411.66406
         width: 155.32
         height: 48
       isBreakpoint: 0
@@ -7547,7 +7542,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 624.8125
-        y: 416.27344
+        y: 496.27344
         width: 100
         height: 16
       isBreakpoint: 0
@@ -7746,6 +7741,72 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000000000000100000001000000
         paramByteDataSize: 0000000001000000000000000000000001000000
+    - name: check is lock
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 702.3281
+        y: 249.67188
+        width: 114.03
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.BoolTest
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a4c8bf00
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: isLock
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - LOCK
+        - WHITE
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 11000000170000001700000001000000
+        paramName:
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000
+        paramByteDataSize: 00000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
