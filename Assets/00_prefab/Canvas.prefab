@@ -3394,8 +3394,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 323.3203
-        y: 182.66406
+        x: 327.3125
+        y: 215.33594
         width: 100
         height: 32
       isBreakpoint: 0
@@ -3406,22 +3406,24 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: time - 1
+        toState: check timer
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.IntClamp
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000002000000
-        actionHashCodes: 5ac8520448c01101
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000400000006000000
+        actionHashCodes: 2181e8025ac8520448c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -3545,7 +3547,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: 
+            enumName: HutongGames.PlayMaker.None
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -3554,7 +3556,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: 
+            objectTypeName: UnityEngine.Object
             floatValues: []
             intValues: 
             boolValues: 
@@ -3575,7 +3577,25 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
-        fsmIntParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: level_timer
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 100
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -3584,27 +3604,31 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        byteData: 0000
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 24000000010000000f0000001700000001000000
+        paramDataType: 1000000010000000100000000100000024000000010000000f0000001700000001000000
         paramName:
+        - intVariable
+        - minValue
+        - maxValue
+        - everyFrame
         - targetProperty
         - everyFrame
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000000000000000000000000000001000000
-        paramByteDataSize: 0000000001000000000000000000000001000000
+        paramDataPos: 000000000100000002000000000000000000000001000000000000000000000002000000
+        paramByteDataSize: 000000000000000000000000010000000000000001000000000000000000000001000000
     - name: check timer
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 621.97656
-        y: 204.66406
+        x: 677.3047
+        y: 199.33594
         width: 105.72
         height: 48
       isBreakpoint: 0
@@ -3615,7 +3639,7 @@ MonoBehaviour:
           name: continue
           isSystemEvent: 0
           isGlobal: 0
-        toState: show count
+        toState: time - 1
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -3708,7 +3732,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: check timer
+        toState: show count
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0

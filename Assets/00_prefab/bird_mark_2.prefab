@@ -2613,21 +2613,12 @@ MonoBehaviour:
         serializedVersion: 2
         x: 892.6797
         y: 563.47656
-        width: 107.34
-        height: 32
+        width: 100
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: check again
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: bird mark move
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.IntSwitch
@@ -2678,7 +2669,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - check again
+        - bird fly away
         - bird fly away
         byteData: 00
         arrayParamSizes: 0200000002000000
@@ -2707,20 +2698,11 @@ MonoBehaviour:
         x: 1189.7109
         y: 509.46094
         width: 118.83
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: check again
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: add phase
-        linkStyle: 0
-        linkConstraint: 0
-        linkTarget: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.IntSwitch
@@ -2771,7 +2753,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - check again
+        - bird hit
         - bird hit
         byteData: 00
         arrayParamSizes: 0200000002000000
