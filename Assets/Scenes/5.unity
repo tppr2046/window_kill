@@ -528,6 +528,14 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[1].value
+      value: data5-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[2].value
+      value: data5-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.arrayVariables.Array.data[2].boolValues.Array.size
       value: 483
       objectReference: {fileID: 0}

@@ -524,12 +524,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[1].value
+      value: data3-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.variables.stringVariables.Array.data[2].value
+      value: data3-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.arrayVariables.Array.data[0].intValues.Array.size
-      value: 140
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.arrayVariables.Array.data[3].intValues.Array.size
-      value: 252
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.variables.arrayVariables.Array.data[2].boolValues.Array.size
@@ -3454,6 +3462,22 @@ PrefabInstance:
     - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.states.Array.data[117].actionData.fsmOwnerDefaultParams.Array.data[1].gameObject.value
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.states.Array.data[121].actionData.fsmPropertyParams.Array.data[0].StringParameter.value
+      value: data1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.states.Array.data[122].actionData.fsmPropertyParams.Array.data[0].StringParameter.value
+      value: data1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.states.Array.data[121].actionData.fsmPropertyParams.Array.data[0].StringParameter.showInInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965189248007419504, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
+      propertyPath: fsm.states.Array.data[122].actionData.fsmPropertyParams.Array.data[0].StringParameter.showInInspector
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1029219300969233498, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: m_AnchorMax.y
