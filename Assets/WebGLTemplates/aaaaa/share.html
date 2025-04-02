@@ -20,15 +20,20 @@
         }
 
         .image-container {
-            width: min(90vw, 90vh); /* 根據視窗較小的尺寸縮放 */
-            max-width: 1080px; /* 最大寬度為 1080px */
-            aspect-ratio: 1 / 1; /* 保持 1:1 比例 */
+            width: 100vw; /* 使圖片適應視窗寬度 */
+            height: 100vh; /* 使圖片適應視窗高度 */
+            max-width: 1080px; /* 最大寬度 1080px */
+            max-height: 1080px; /* 最大高度 1080px */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
             .image-container img {
-                width: 100%;
-                height: 100%;
-                object-fit: contain; /* 保持原始比例，不裁剪 */
+                max-width: 100%; /* 確保圖片不超過容器大小 */
+                max-height: 100%; /* 確保圖片不超過容器大小 */
+                height: auto;
+                width: auto;
             }
     </style>
 </head>
