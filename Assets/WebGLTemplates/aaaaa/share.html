@@ -5,48 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>啾命關頭</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
-            background-color: #ffffff;
+            background-color: #FFFFFF;
         }
 
-        .container {
-            position: relative;
-            display: inline-block;
+        .image-container {
+            width: 100vw; /* 根據視窗寬度調整 */
+            height: 100vw;
+            max-width: 1080px; /* 最大寬度為 1080px */
+            max-height: 1080px;
+            aspect-ratio: 1 / 1; /* 保持 1:1 比例 */
         }
 
-        img {
-            width: 675px; 
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .buttons {
-            position: absolute;
-            top: 80%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-//            flex-direction: column;
-            gap: 30px; 
-        }
-
-        button {
-            background-color: rgba(236, 196, 84, 0.7);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-            button:hover {
-                background-color: rgba(236, 196, 84, 0.9);
+            .image-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain; /* 保持原始比例，不裁剪 */
             }
     </style>
 </head>
