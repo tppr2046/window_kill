@@ -281,19 +281,19 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.05
+          value: 0.15
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.05
+          value: 0.15
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.05
+          value: 0.15
         - useVariable: 0
           name: 
           tooltip: 
@@ -433,7 +433,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           enumName: HutongGames.EasingFunction+Ease
-          intValue: 9
+          intValue: 6
         fsmFloatParams:
         - useVariable: 0
           name: 
