@@ -15,11 +15,6 @@ MonoBehaviour:
   m_GroupName: Level 1
   m_GUID: b3e5c7710d71611439f73fcb760590e2
   m_SerializeEntries:
-  - m_GUID: 1049145e9c5c55141b12d5e845e360e2
-    m_Address: Assets/Images/ending_logo_win.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 14152bff7d76b334080b23aba68603c9
     m_Address: Assets/Images/item_button_4.png
     m_ReadOnly: 0
