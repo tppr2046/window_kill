@@ -42,7 +42,20 @@
     <div class="container">
         <img id="image" src="TemplateData/ending_screen.png" alt="下載">
     </div>
-
+    <script>
+        window.onload = async function () {
+            try {
+                const img = document.getElementById('image');
+                const response = await fetch(img.src);
+                const blob = await response.blob();
+                const clipboardItem = new ClipboardItem({ 'image/png': blob });
+                await navigator.clipboard.write([clipboardItem]);
+                console.log("圖片已成功複製到剪貼簿");
+            } catch (err) {
+                console.error("無法複製圖片到剪貼簿", err);
+            }
+        };
+    </script>
 
 
 </body>
