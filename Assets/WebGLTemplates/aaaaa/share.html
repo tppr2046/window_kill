@@ -35,27 +35,28 @@
                 height: auto;
                 width: auto;
             }
+
+        .overlay-text {
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
         <img id="image" src="TemplateData/ending_screen.png" alt="下載">
+        <div class="overlay-text">手機版請長按圖片下載圖片，電腦請點滑鼠右鍵下載圖片</div>
     </div>
-    <script>
-        window.onload = async function () {
-            try {
-                const img = document.getElementById('image');
-                const response = await fetch(img.src);
-                const blob = await response.blob();
-                const clipboardItem = new ClipboardItem({ 'image/png': blob });
-                await navigator.clipboard.write([clipboardItem]);
-                console.log("圖片已成功複製到剪貼簿");
-            } catch (err) {
-                console.error("無法複製圖片到剪貼簿", err);
-            }
-        };
-    </script>
 
 
 </body>
