@@ -433,7 +433,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           enumName: HutongGames.EasingFunction+Ease
-          intValue: 6
+          intValue: 0
         fsmFloatParams:
         - useVariable: 0
           name: 

@@ -3541,7 +3541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[0]'
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[1]'
@@ -3561,23 +3561,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[0]'
-      value: 3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[1]'
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[2]'
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[3]'
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[4]'
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmVarParams.Array.data[1].variableName
