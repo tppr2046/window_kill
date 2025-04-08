@@ -2233,23 +2233,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[0]'
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[1]'
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[2]'
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[3]'
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[4]'
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[0].floatValues.Array.data[5]'
@@ -2265,35 +2265,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[0]'
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[1]'
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[2]'
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[3]'
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[4]'
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[5]'
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[6]'
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: 'fsm.variables.arrayVariables.Array.data[2].floatValues.Array.data[7]'
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1457511684373625417, guid: f2dc611e40ef55b40a9e39a678749522, type: 3}
       propertyPath: fsm.states.Array.data[4].actionData.fsmVarParams.Array.data[1].variableName
