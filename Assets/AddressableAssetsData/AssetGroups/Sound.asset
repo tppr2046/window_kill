@@ -40,6 +40,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4babca513ae9bd941a4b22f879cd7a8c
+    m_Address: Assets/Sound/start.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f60cff5368dda6409390ed1697a57a0
+    m_Address: Assets/Sound/cheer.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba4dcc2bfb62fa546a994b2979e651fa
     m_Address: Assets/Sound/sfx_click.mp3
     m_ReadOnly: 0
